@@ -17,7 +17,8 @@ ALL_GUNS_STORE = "all_guns_database.json"
 intents = discord.Intents.default()
 intents.message_content = True
 intents.guilds = True  # Enable guild (server) intents
-bot = commands.Bot(command_prefix="!", intents=intents)  # or any other prefix
+bot = commands.Bot(command_prefix="!", intents=intents)
+
 def load_all_guns_database():
     """Load the comprehensive guns database"""
     if os.path.exists(ALL_GUNS_STORE):
@@ -115,31 +116,28 @@ async def on_ready():
     print(f"🤖 Search Bot logged in as {bot.user}")
     print(f"📊 Connected to {len(bot.guilds)} servers")
     
-    # Sync commands with Discord
     try:
-        # Sync to all guilds the bot is in
-        for guild in bot.guilds:
-            print(f"🔄 Syncing commands to {guild.name}...")
-            synced = await bot.tree.sync(guild=guild)
-            print(f"✅ Synced {len(synced)} commands to {guild.name}")
-        print("✅ Successfully synced commands to all servers")
+        print("🔄 Syncing commands globally...")
+        commands = await bot.tree.sync()
+        print(f"✅ Successfully synced {len(commands)} commands")
     except Exception as e:
         print(f"❌ Failed to sync commands: {e}")
         print("Please ensure the bot has the 'applications.commands' scope when invited")
 
 @bot.event
-async def on_ready():
-    print(f"🤖 Bot is ready! Logged in as {bot.user}")
-    print("🔄 Syncing slash commands...")
-    try:
-        synced = await bot.tree.sync()
-        print(f"✅ Synced {len(synced)} commands")
-    except Exception as e:
-        print(f"❌ Failed to sync commands: {e}")
+async def on_message(message):
+    # Ignore messages from the bot itself
+    if message.author == bot.user:
+        return
+    
+    # Only process commands if they start with the prefix
+    if message.content.startswith('!'):
+        await bot.process_commands(message)
 
 @bot.tree.command(name="search", description="Search for a weapon loadout")
 async def search(interaction: discord.Interaction, weapon_name: str):
     """Search for a weapon by name"""
+    print(f"Received search command for: {weapon_name}")  # Debug log
     await interaction.response.defer()
     
     results = search_guns(weapon_name, max_results=5)
@@ -158,20 +156,34 @@ async def search(interaction: discord.Interaction, weapon_name: str):
         embed = format_gun_embed(results[0])
         await interaction.followup.send(embed=embed)
     else:
-        # Multiple results - show list
+        # Multiple results - show list with buttons
         description = f"Found {len(results)} weapons matching **{weapon_name}**:\n\n"
         
         for i, gun in enumerate(results, 1):
             description += f"**{i}.** {gun['gun']} - {gun['mode']} {gun['range']} (Rank #{gun['rank']})\n"
-        
-        description += f"\n💡 Use `/gun <exact_name>` for detailed loadout info"
         
         embed = discord.Embed(
             title="🔍 Search Results", 
             description=description,
             color=0x3498db
         )
-        await interaction.followup.send(embed=embed)
+        
+        # Create view with buttons
+        view = discord.ui.View()
+        for i, gun in enumerate(results, 1):
+            button = discord.ui.Button(
+                label=str(i), 
+                style=discord.ButtonStyle.primary,
+                custom_id=f"select_{i-1}"  # Store index in custom_id
+            )
+            
+            async def button_callback(interaction: discord.Interaction, gun=gun):
+                await interaction.response.send_message(embed=format_gun_embed(gun))
+            
+            button.callback = button_callback
+            view.add_item(button)
+        
+        await interaction.followup.send(embed=embed, view=view)
 
 @bot.tree.command(name="gun", description="Get detailed info for a specific weapon")
 async def gun(interaction: discord.Interaction, weapon_name: str):
@@ -312,4 +324,10 @@ async def range_type_autocomplete(interaction: discord.Interaction, current: str
         for range_type in ranges if current.lower() in range_type.lower()
     ][:25]  # Discord limits to 25 choices
 
-# ✅ No `bot.run()` here!
+if __name__ == "__main__":
+    if not DISCORD_BOT_TOKEN:
+        print("❌ DISCORD_SEARCH_BOT_TOKEN not found in environment variables")
+        print("Add DISCORD_SEARCH_BOT_TOKEN=your_bot_token to your .env file")
+        exit(1)
+    
+    bot.run(DISCORD_BOT_TOKEN)
