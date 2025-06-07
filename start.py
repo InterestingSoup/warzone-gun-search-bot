@@ -42,7 +42,9 @@ def download_latest_database():
 
 def check_database_exists():
     """Check if database file exists locally"""
-    db_path = Path("all_guns_database.json")
+    print(f"📁 Current working directory: {Path.cwd()}")
+    print(f"📂 Files: {os.listdir()}")
+    db_path = Path("gun-database")
     if db_path.exists():
         print(f"✅ Database found: {db_path.stat().st_size} bytes")
         return True
@@ -56,7 +58,7 @@ class HealthCheckHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/health':
             # Check if database exists and bot is ready
-            db_exists = Path("all_guns_database.json").exists()
+            db_exists = Path("gun-database").exists()
             discord_token = os.getenv('DISCORD_SEARCH_BOT_TOKEN')
             
             if db_exists and discord_token:
@@ -130,7 +132,7 @@ def main():
         if not db_downloaded:
             print("💡 No database available. Options:")
             print("   1. Set GITHUB_TOKEN, GITHUB_REPO_OWNER, GITHUB_REPO_NAME in environment")
-            print("   2. Upload all_guns_database.json manually to your deployment")
+            print("   2. Upload gun-database manually to your deployment")
             print("   3. Run scraper locally first: python scrape.py")
             sys.exit(1)
     

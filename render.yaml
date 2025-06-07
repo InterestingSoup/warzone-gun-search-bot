@@ -3,7 +3,20 @@ services:
   - type: web
     name: warzone-gun-search-bot
     runtime: python3
-    buildCommand: pip install -r discord_bot_requirements.txt
+    buildCommand: |
+      # Install system dependencies
+      apt-get update && apt-get install -y jq
+      # Install Python dependencies
+      pip install -r discord_bot_requirements.txt
+      # Download latest gun database artifact
+      curl -L -H "Authorization: token $GITHUB_TOKEN" \
+        -H "Accept: application/vnd.github.v3+json" \
+        "https://api.github.com/repos/$GITHUB_REPO_OWNER/$GITHUB_REPO_NAME/actions/artifacts" | \
+        jq -r '.artifacts[] | select(.name=="gun-database") | .archive_download_url' | \
+        xargs -I {} curl -L -H "Authorization: token $GITHUB_TOKEN" \
+        -H "Accept: application/vnd.github.v3+json" {} -o gun-database.zip
+      unzip gun-database.zip
+      mv artifacts/all_guns_database.json .
     startCommand: python start.py
     plan: free
     autoDeploy: false
