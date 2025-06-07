@@ -34,26 +34,39 @@ jobs:
         playwright install chromium
         
     - name: 🔫 Run gun scraper
+      id: scrape
       run: |
         pwd  # Show current directory
         python scrape.py
         
     - name: 📊 Verify database
+      id: verify
       run: |
         pwd  # Show current directory
         echo "=== Directory contents ==="
         ls -la
         echo "=== Database file details ==="
-        ls -la all_guns_database.json || echo "File not found!"
+        if [ -f "all_guns_database.json" ]; then
+          echo "✅ Database file exists"
+          ls -la all_guns_database.json
+          echo "=== File contents preview ==="
+          head -n 5 all_guns_database.json
+        else
+          echo "❌ Database file not found!"
+          exit 1
+        fi
         
     - name: 💾 Upload gun database artifact
+      if: success() && steps.verify.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
         name: gun-database
-        path: ${{ github.workspace }}/all_guns_database.json
+        path: ./all_guns_database.json
         retention-days: 30
+        if-no-files-found: error
         
     - name: 📈 Create database summary
+      if: success() && steps.verify.outcome == 'success'
       run: |
         echo "## 🔫 Gun Database Update" >> $GITHUB_STEP_SUMMARY
         echo "**Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
