@@ -36,32 +36,46 @@ jobs:
     - name: 🔫 Run gun scraper
       id: scrape
       run: |
-        pwd  # Show current directory
+        echo "=== Current Directory ==="
+        pwd
+        echo "=== Directory Contents Before ==="
+        ls -la
         python scrape.py
+        echo "=== Directory Contents After ==="
+        ls -la
         
     - name: 📊 Verify database
       id: verify
       run: |
-        pwd  # Show current directory
-        echo "=== Directory contents ==="
+        echo "=== Current Directory ==="
+        pwd
+        echo "=== Directory Contents ==="
         ls -la
-        echo "=== Database file details ==="
+        echo "=== Database File Details ==="
         if [ -f "all_guns_database.json" ]; then
           echo "✅ Database file exists"
           ls -la all_guns_database.json
-          echo "=== File contents preview ==="
+          echo "=== File Contents Preview ==="
           head -n 5 all_guns_database.json
+          echo "=== File Permissions ==="
+          stat all_guns_database.json
         else
           echo "❌ Database file not found!"
           exit 1
         fi
         
-    - name: 💾 Upload gun database artifact
-      if: success() && steps.verify.outcome == 'success'
+    - name: 💾 Create artifact directory
+      run: |
+        mkdir -p artifacts
+        cp all_guns_database.json artifacts/
+        echo "=== Artifacts Directory Contents ==="
+        ls -la artifacts/
+        
+    - name: 📤 Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: gun-database
-        path: ./all_guns_database.json
+        path: artifacts/all_guns_database.json
         retention-days: 30
         if-no-files-found: error
         
