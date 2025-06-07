@@ -9,13 +9,15 @@ from discord.ext import commands
 
 # === Load Environment ===
 load_dotenv()
-DISCORD_BOT_TOKEN = os.getenv("DISCORD_SEARCH_BOT_TOKEN")  # Use a different token for search bot
+DISCORD_BOT_TOKEN = os.getenv("DISCORD_SEARCH_BOT_TOKEN")
+DISCORD_CHANNEL_ID = os.getenv("DISCORD_CHANNEL_ID")  # Add channel ID from environment
 ALL_GUNS_STORE = "all_guns_database.json"
 
 # === Bot Setup ===
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix=None, intents=intents)  # Remove prefix commands
+intents.guilds = True  # Enable guild (server) intents
+bot = commands.Bot(command_prefix=None, intents=intents)
 
 def load_all_guns_database():
     """Load the comprehensive guns database"""
@@ -112,10 +114,15 @@ def format_gun_embed(gun):
 @bot.event
 async def on_ready():
     print(f"🤖 Search Bot logged in as {bot.user}")
+    print(f"📊 Connected to {len(bot.guilds)} servers")
+    
+    # Sync commands with Discord
     try:
-        # Sync commands with Discord
-        synced = await bot.tree.sync()
-        print(f"✅ Synced {len(synced)} slash commands")
+        # Sync to all guilds the bot is in
+        for guild in bot.guilds:
+            print(f"🔄 Syncing commands to {guild.name}...")
+            await bot.tree.sync(guild=guild)
+        print("✅ Successfully synced commands to all servers")
     except Exception as e:
         print(f"❌ Failed to sync commands: {e}")
 
