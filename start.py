@@ -147,8 +147,8 @@ def main():
     print("📡 Bot will be available for slash commands")
     
     # Start Discord bot in a separate thread
-    bot_thread = threading.Thread(target=start_discord_bot, daemon=True)
-    bot_thread.start()
+    start_discord_bot()  # runs in main thread
+
     
     # Start health check server (this will run indefinitely)
     print("🌐 Starting health check server for Render...")
