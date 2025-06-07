@@ -15,17 +15,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Cache last_meta.json
-        uses: actions/cache@v3
-        with:
-          path: last_meta.json
-          key: meta-${{ github.run_id }}
-          restore-keys: |
-            meta-
-
-      - name: Install libavif for AVIF support
-        run: sudo apt-get update && sudo apt-get install -y libavif-dev
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -38,9 +27,65 @@ jobs:
           pip install Pillow pillow-avif-plugin
           python -m playwright install --with-deps
 
-      - name: Run bot
-        env:
-          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
-          IMGUR_CLIENT_ID: ${{ secrets.IMGUR_CLIENT_ID }}
-        run: python scrape.py
+      - name: Run scraper
+        id: scrape
+        run: |
+          echo "=== Current Directory ==="
+          pwd
+          echo "=== Directory Contents Before ==="
+          ls -la
+          python scrape.py
+          echo "=== Directory Contents After ==="
+          ls -la
+
+      - name: Verify database
+        id: verify
+        run: |
+          echo "=== Current Directory ==="
+          pwd
+          echo "=== Directory Contents ==="
+          ls -la
+          echo "=== Database File Details ==="
+          if [ -f "all_guns_database.json" ]; then
+            echo "✅ Database file exists"
+            ls -la all_guns_database.json
+            echo "=== File Contents Preview ==="
+            head -n 5 all_guns_database.json
+            echo "=== File Permissions ==="
+            stat all_guns_database.json
+          else
+            echo "❌ Database file not found!"
+            exit 1
+          fi
+
+      - name: Create artifact directory
+        run: |
+          mkdir -p artifacts
+          cp all_guns_database.json artifacts/
+          echo "=== Artifacts Directory Contents ==="
+          ls -la artifacts/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gun-database
+          path: artifacts/all_guns_database.json
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Create summary
+        if: success() && steps.verify.outcome == 'success'
+        run: |
+          echo "## 🔫 Gun Database Update" >> $GITHUB_STEP_SUMMARY
+          echo "**Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
+          python -c "
+import json
+with open('all_guns_database.json', 'r') as f:
+    db = json.load(f)
+print(f'**Total Guns:** {db[\"total_guns\"]}')
+print(f'**Last Updated:** {db[\"last_updated\"]}')
+print('**Categories:**')
+for cat, guns in db['categories'].items():
+    cat_name = cat.replace('_', ' - ')
+    print(f'- {cat_name}: {len(guns)} weapons')
+          " >> $GITHUB_STEP_SUMMARY
