@@ -12,7 +12,7 @@ load_dotenv()
 ALL_GUNS_STORE = "all_guns_database.json"
 
 # === Test Mode ===
-TEST_MODE = True  # Set to False to scrape all categories
+TEST_MODE = False  # Set to False to scrape all categories
 TEST_CATEGORY = {
     "mode": "Resurgence",
     "url": "https://wzstats.gg/warzone/meta/resurgence",
