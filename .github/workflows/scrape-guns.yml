@@ -1,0 +1,68 @@
+name: 🔫 Scrape Gun Database
+
+on:
+  # Run automatically twice daily
+  schedule:
+    - cron: '0 8,20 * * *'  # 8 AM and 8 PM UTC
+  
+  # Allow manual trigger
+  workflow_dispatch:
+  
+  # Run on push to main (for testing)
+  push:
+    branches: [ main ]
+    paths: 
+      - 'scrape.py'
+      - '.github/workflows/scrape-guns.yml'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📂 Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 📦 Install dependencies
+      run: |
+        pip install -r requirements.txt
+        playwright install chromium
+        
+    - name: 🔫 Run gun scraper
+      env:
+        IMGUR_CLIENT_ID: ${{ secrets.IMGUR_CLIENT_ID }}
+      run: |
+        python scrape.py
+        
+    - name: 📊 Verify database
+      run: |
+        python test_database.py
+        ls -la all_guns_database.json
+        
+    - name: 💾 Upload gun database artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: gun-database
+        path: all_guns_database.json
+        retention-days: 30
+        
+    - name: 📈 Create database summary
+      run: |
+        echo "## 🔫 Gun Database Update" >> $GITHUB_STEP_SUMMARY
+        echo "**Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
+        python -c "
+import json
+with open('all_guns_database.json', 'r') as f:
+    db = json.load(f)
+print(f'**Total Guns:** {db[\"total_guns\"]}')
+print(f'**Last Updated:** {db[\"last_updated\"]}')
+print('**Categories:**')
+for cat, guns in db['categories'].items():
+    cat_name = cat.replace('_', ' - ')
+    print(f'- {cat_name}: {len(guns)} weapons')
+        " >> $GITHUB_STEP_SUMMARY 

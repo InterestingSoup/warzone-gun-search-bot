@@ -1,0 +1,39 @@
+services:
+  # Discord Bot with Health Check Server (for free tier)
+  - type: web
+    name: warzone-gun-search-bot
+    runtime: python3
+    buildCommand: pip install -r discord_bot_requirements.txt
+    startCommand: python start.py
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: DISCORD_SEARCH_BOT_TOKEN
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_REPO_OWNER
+        sync: false  
+      - key: GITHUB_REPO_NAME
+        sync: false
+      - key: PORT
+        value: "10000"
+    healthCheckPath: /health
+
+  # Alternative: Background Service (requires paid plan)
+  # - type: worker
+  #   name: warzone-gun-search-bot-worker
+  #   runtime: python3
+  #   buildCommand: pip install -r discord_bot_requirements.txt
+  #   startCommand: python discord_search_bot.py
+  #   plan: starter
+  #   autoDeploy: false
+  #   envVars:
+  #     - key: DISCORD_SEARCH_BOT_TOKEN
+  #       sync: false
+  #     - key: GITHUB_TOKEN
+  #       sync: false
+  #     - key: GITHUB_REPO_OWNER
+  #       sync: false  
+  #     - key: GITHUB_REPO_NAME
+  #       sync: false 

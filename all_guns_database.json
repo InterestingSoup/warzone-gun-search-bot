@@ -1,0 +1,3798 @@
+{
+  "last_updated": "2025-06-06 17:48:27 UTC",
+  "total_guns": 232,
+  "categories": {
+    "Resurgence_Long Range": [
+      {
+        "rank": 1,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "FFAR 1\nNEW",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 G-GRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 4, 2025"
+        ],
+        "image": "https://i.imgur.com/dZrklCN.png",
+        "updated": ""
+      },
+      {
+        "rank": 2,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "LC10\nNEW",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/ewnJvIK.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "GPR 91",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/swvUq9d.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "C9",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/UgCPNfG.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "SWAT 5.56",
+        "class": [
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 FULL-AUTO EXTENDED MAG \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 SWAT 5.56 GRAU CONVERSION \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/jwJ0Lfu.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "LADRA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ladra-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "KRIG C",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 2, 2025"
+        ],
+        "image": "https://img.wzstats.gg/krig-c-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 8,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "SAUG",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/saug-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 9,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Kilo 141",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kilo-141-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "KOMPAKT 92",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kompakt-92-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 11,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Kar98k",
+        "class": [
+          "\u2022 RANGE CALLER V3.4 OPTIC \u2014 Optic",
+          "\u2022 SONIC SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 PR\u00c4ZISIONSGEWEHR 762 LONG BARREL \u2014 Barrel",
+          "\u2022 DR-6 HANDSTOP \u2014 Underbarrel",
+          "\u2022 7.92 HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kar98k-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 12,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "FJX Imperium",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 FAHRENHEIT 29\" \u2014 Barrel",
+          "\u2022 FJX KILO-TAC \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 .408 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-imperium-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 13,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "AMES 85",
+        "class": [
+          "\u2022 OTERO RED DOT \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ames-85-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 14,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "PPSh-41",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 AGILITY STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ppsh-41-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 15,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "CR-56 AMAX",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/cr-56-amax-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 16,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "KSV",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ksv-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 17,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Cypher 091",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/cypher-091-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 18,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MX9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 16.5\" BRUEN S901 \u2014 Barrel",
+          "\u2022 EXTENDED MAG \u2014 Magazine",
+          "\u2022 BRUEN Q900 GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mx9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 19,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "M4",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 KOMODO HEAVY \u2014 Muzzle",
+          "\u2022 HIGHTOWER 20\" BARREL \u2014 Barrel",
+          "\u2022 60 ROUND MAG \u2014 Magazine",
+          "\u2022 5.56 NATO LOW GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/m4-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 20,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "HRM-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 THORN-90 BARREL \u2014 Barrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 HATCHET LIGHT STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/hrm-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 21,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "TR2",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/tr2-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 22,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 23,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "LW3A1 FROSTLINE",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Stock Pad",
+          "\u2022 QUICKDRAW RISER \u2014 Comb",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lw3a1-frostline-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 24,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "HDR",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 108MM OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/hdr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 25,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-conversion-kit-smg-variant-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 26,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "JACKAL PDW",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/jackal-pdw-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 27,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "GREKHOVA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/grekhova-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 28,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "DM-10",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 BUFFER WEIGHT STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/dm-10-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 29,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "TAQ-56",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 CASUS BRAKE \u2014 Muzzle",
+          "\u2022 17.5\" TUNDRA PRO BARREL \u2014 Barrel",
+          "\u2022 60 ROUND MAG \u2014 Magazine",
+          "\u2022 5.56 NATO HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/taq-56-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 30,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "PDSW 528",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 FTAC SERIES IX 14.5\" \u2014 Barrel",
+          "\u2022 CQB STOCK \u2014 Stock",
+          "\u2022 GR33 LIGHT RAIL \u2014 Rail",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pdsw-528-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 31,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Lachmann Shroud",
+        "class": [
+          "\u2022 JAK DECIMATOR \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 FT MOBILE STOCK \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lachmann-shroud-conversion-kit-jak-decimator-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 32,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MX Guardian",
+        "class": [
+          "\u2022 FLASH TWIST-90 \u2014 Muzzle",
+          "\u2022 HYP-LM \u2014 Barrel",
+          "\u2022 BRUEN HEAVY SUPPORT GRIP \u2014 Underbarrel",
+          "\u2022 MX DCP-0 \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Set aiming mode to \u2014 TACTICAL STANCE",
+          "\u2022 Jun 5, 2025"
+        ],
+        "image": "https://img.wzstats.gg/mx-guardian-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 33,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Feng 82",
+        "class": [
+          "\u2022 OTERO RED DOT \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/feng-82-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 34,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "XMG",
+        "class": [
+          "\u2022 OTERO RED DOT \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/xmg-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 35,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "AS VAL",
+        "class": [
+          "\u2022 SUPPRESSED REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 CQB GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/as-val-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 36,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "GOBLIN MK2",
+        "class": [
+          "\u2022 WILLIS 3X \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/goblin-mk-2-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 37,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "LR 7.62",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT HANDGUARD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lr-762-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 38,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Striker",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 48 ROUND MAG \u2014 Magazine",
+          "\u2022 LACHMANN MK2 LIGHT STOCK \u2014 Stock",
+          "\u2022 .45 AUTO HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/striker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 39,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MODEL L",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": "https://img.wzstats.gg/model-l-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 40,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "PP-919",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pp-919-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 41,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Renetti",
+        "class": [
+          "\u2022 JAK FEROCITY CARBINE KIT \u2014 Conversion Kit",
+          "\u2022 SLIMLINE PRO \u2014 Optic",
+          "\u2022 XRK VENTOR-900 \u2014 Muzzle",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/renetti-conversion-kit-jak-ferocity-carbine-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 42,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MTZ-556",
+        "class": [
+          "\u2022 JAK GLASSLESS OPTIC \u2014 Optic",
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 MTZ CLINCH PRO BARREL \u2014 Barrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 MTZ MARAUDER STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mtz-556-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 43,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Superi 46",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 BORE 99 SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RESCUE-9 STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/superi-46-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 44,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "KATT-AMR",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 ZANG-34 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 EPHEMERAL QUICKBOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/katt-amr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 45,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MCW",
+        "class": [
+          "\u2022 JAK GLASSLESS OPTIC \u2014 Optic",
+          "\u2022 CASUS BRAKE \u2014 Muzzle",
+          "\u2022 16.5\" MCW CYCLONE LONG BARREL \u2014 Barrel",
+          "\u2022 60 ROUND DRUM \u2014 Magazine",
+          "\u2022 5.56 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mcw-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 46,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 MARTIS HEAVY BARREL \u2014 Barrel",
+          "\u2022 60 ROUND DRUM \u2014 Magazine",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 47,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MORS",
+        "class": [
+          "\u2022 HEINRICHTER HYBRID SCOPE \u2014 Optic",
+          "\u2022 ICARUS LIGHT STOCK \u2014 Stock",
+          "\u2022 SL RAZORHAWK LASER LIGHT \u2014 Laser",
+          "\u2022 HVP ANTI-MATERIEL SLUG \u2014 Ammunition",
+          "\u2022 QUICK BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mors-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 48,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "BP50",
+        "class": [
+          "\u2022 JAK REVENGER KIT \u2014 Conversion Kit",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 CCG-TAC TAPE \u2014 Rear Grip",
+          "\u2022 1MW QUICK FIRE LASER \u2014 Laser",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/bp50-conversion-kit-jak-revenger-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 49,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "AMR9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 AMR9 REGAL PRO BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 PIPELINE PRO LTS \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/amr9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 50,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "RIVAL-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 BRUEN FLASH V4 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/rival-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 51,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 JAK SCIMITAR KIT \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 POC-S TAC GRIP \u2014 Rear Grip",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-conversion-kit-jak-scimitar-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 52,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "MCW",
+        "class": [
+          "\u2022 JAK RAVEN KIT \u2014 Conversion Kit",
+          "\u2022 KIMURA BLACKIRON HEAVY SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RB RAPIDSTRIKE GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mcw-conversion-kit-jak-raven-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 53,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "RAM-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 ARMISTICE LIGHT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND MAG \u2014 Magazine",
+          "\u2022 RECON COMB \u2014 Comb",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ram-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 54,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "M13B",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 CASUS BRAKE \u2014 Muzzle",
+          "\u2022 14\" BRUEN ECHELON \u2014 Barrel",
+          "\u2022 60 ROUND MAG \u2014 Magazine",
+          "\u2022 5.56 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/m13b-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 55,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Victus XMR",
+        "class": [
+          "\u2022 XTEN INTLAS AS-7 \u2014 Optic",
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 MACK 8 33.5 SUPER \u2014 Barrel",
+          "\u2022 XRK RISE 50 \u2014 Stock",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/victus-xmr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 56,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "XRK Stalker",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 FISSION 60 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 XRK STALKER LIGHT BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/xrk-stalker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 57,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "Essex Model 07\nNEW",
+        "class": [
+          "\u2022 JASON ARMORY 2X \u2014 Optic",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 QUICKDRAW LEVER \u2014 Lever",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": "https://img.wzstats.gg/essex-model-07-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 58,
+        "mode": "Resurgence",
+        "range": "Long Range",
+        "gun": "SIRIN 9mm",
+        "class": [
+          "\u2022 IRON SIGHT \u2014 Optic",
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/sirin-9mm-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      }
+    ],
+    "Resurgence_Close Range": [
+      {
+        "rank": 1,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "LC10\nNEW",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/uFseZZn.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "C9",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/tDihwQG.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "LADRA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/0ZxtWWh.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "SAUG",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/PXIhhsz.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "KOMPAKT 92",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/P6vM9xf.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "PPSh-41",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 AGILITY STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ppsh-41-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "KSV",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ksv-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "MX9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 16.5\" BRUEN S901 \u2014 Barrel",
+          "\u2022 EXTENDED MAG \u2014 Magazine",
+          "\u2022 BRUEN Q900 GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mx9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 9,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "HRM-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 THORN-90 BARREL \u2014 Barrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 HATCHET LIGHT STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/hrm-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-conversion-kit-smg-variant-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 11,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "JACKAL PDW",
+        "class": [
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/jackal-pdw-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 12,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "GREKHOVA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/grekhova-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 13,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "PDSW 528",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 FTAC SERIES IX 14.5\" \u2014 Barrel",
+          "\u2022 CQB STOCK \u2014 Stock",
+          "\u2022 GR33 LIGHT RAIL \u2014 Rail",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pdsw-528-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 14,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "Lachmann Shroud",
+        "class": [
+          "\u2022 JAK DECIMATOR \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 FT MOBILE STOCK \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lachmann-shroud-conversion-kit-jak-decimator-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 15,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "MX Guardian",
+        "class": [
+          "\u2022 FLASH TWIST-90 \u2014 Muzzle",
+          "\u2022 HYP-LM \u2014 Barrel",
+          "\u2022 BRUEN HEAVY SUPPORT GRIP \u2014 Underbarrel",
+          "\u2022 MX DCP-0 \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Set aiming mode to \u2014 TACTICAL STANCE",
+          "\u2022 Jun 5, 2025"
+        ],
+        "image": "https://img.wzstats.gg/mx-guardian-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 16,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "Striker",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 48 ROUND MAG \u2014 Magazine",
+          "\u2022 LACHMANN MK2 LIGHT STOCK \u2014 Stock",
+          "\u2022 .45 AUTO HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/striker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 17,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "PP-919",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pp-919-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 18,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "Renetti",
+        "class": [
+          "\u2022 JAK FEROCITY CARBINE KIT \u2014 Conversion Kit",
+          "\u2022 SLIMLINE PRO \u2014 Optic",
+          "\u2022 XRK VENTOR-900 \u2014 Muzzle",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/renetti-conversion-kit-jak-ferocity-carbine-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 19,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "Superi 46",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 BORE 99 SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RESCUE-9 STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/superi-46-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 20,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 MARTIS HEAVY BARREL \u2014 Barrel",
+          "\u2022 60 ROUND DRUM \u2014 Magazine",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 21,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "BP50",
+        "class": [
+          "\u2022 JAK REVENGER KIT \u2014 Conversion Kit",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 CCG-TAC TAPE \u2014 Rear Grip",
+          "\u2022 1MW QUICK FIRE LASER \u2014 Laser",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/bp50-conversion-kit-jak-revenger-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 22,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "AMR9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 AMR9 REGAL PRO BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 PIPELINE PRO LTS \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/amr9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 23,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "RIVAL-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 BRUEN FLASH V4 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/rival-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 24,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 JAK SCIMITAR KIT \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 POC-S TAC GRIP \u2014 Rear Grip",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-conversion-kit-jak-scimitar-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 25,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "MCW",
+        "class": [
+          "\u2022 JAK RAVEN KIT \u2014 Conversion Kit",
+          "\u2022 KIMURA BLACKIRON HEAVY SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RB RAPIDSTRIKE GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mcw-conversion-kit-jak-raven-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 26,
+        "mode": "Resurgence",
+        "range": "Close Range",
+        "gun": "RAM-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 ARMISTICE LIGHT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND MAG \u2014 Magazine",
+          "\u2022 RECON COMB \u2014 Comb",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ram-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      }
+    ],
+    "Resurgence_Sniper": [
+      {
+        "rank": 1,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "Kar98k",
+        "class": [
+          "\u2022 RANGE CALLER V3.4 OPTIC \u2014 Optic",
+          "\u2022 SONIC SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 PR\u00c4ZISIONSGEWEHR 762 LONG BARREL \u2014 Barrel",
+          "\u2022 DR-6 HANDSTOP \u2014 Underbarrel",
+          "\u2022 7.92 HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/4OpmWDa.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "FJX Imperium",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 FAHRENHEIT 29\" \u2014 Barrel",
+          "\u2022 FJX KILO-TAC \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 .408 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/jpz0g7N.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "LW3A1 FROSTLINE",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Stock Pad",
+          "\u2022 QUICKDRAW RISER \u2014 Comb",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/t6zx1x7.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "HDR",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 108MM OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/1rsC9Wc.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "LR 7.62",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT HANDGUARD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/ZYU7gs7.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "KATT-AMR",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 ZANG-34 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 EPHEMERAL QUICKBOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/katt-amr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "MORS",
+        "class": [
+          "\u2022 HEINRICHTER HYBRID SCOPE \u2014 Optic",
+          "\u2022 ICARUS LIGHT STOCK \u2014 Stock",
+          "\u2022 SL RAZORHAWK LASER LIGHT \u2014 Laser",
+          "\u2022 HVP ANTI-MATERIEL SLUG \u2014 Ammunition",
+          "\u2022 QUICK BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mors-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "Victus XMR",
+        "class": [
+          "\u2022 XTEN INTLAS AS-7 \u2014 Optic",
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 MACK 8 33.5 SUPER \u2014 Barrel",
+          "\u2022 XRK RISE 50 \u2014 Stock",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/victus-xmr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 9,
+        "mode": "Resurgence",
+        "range": "Sniper",
+        "gun": "XRK Stalker",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 FISSION 60 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 XRK STALKER LIGHT BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/xrk-stalker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      }
+    ],
+    "Verdansk_Long Range": [
+      {
+        "rank": 1,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "KRIG C",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 2, 2025"
+        ],
+        "image": "https://i.imgur.com/Rm3ouPO.png",
+        "updated": ""
+      },
+      {
+        "rank": 2,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "LC10\nNEW",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/mynfVEg.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "SWAT 5.56",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 FULL-AUTO EXTENDED MAG \u2014 Magazine",
+          "\u2022 SWAT 5.56 GRAU CONVERSION \u2014 Fire Mods",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": "https://i.imgur.com/p4SKP5D.png",
+        "updated": ""
+      },
+      {
+        "rank": 4,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "C9",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/hjPN2a0.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Kilo 141",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 1, 2025"
+        ],
+        "image": "https://i.imgur.com/wqpONen.png",
+        "updated": ""
+      },
+      {
+        "rank": 6,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "LADRA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ladra-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "HDR",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT BIPOD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 108MM OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/hdr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "FFAR 1\nNEW",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 G-GRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 4, 2025"
+        ],
+        "image": "https://img.wzstats.gg/ffar-1-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 9,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "GPR 91",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/gpr-91-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "SAUG",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/saug-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 11,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "AMES 85",
+        "class": [
+          "\u2022 DOBRYCH MF REFLEX \u2014 Optic",
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 4, 2025"
+        ],
+        "image": "https://img.wzstats.gg/ames-85-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 12,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "KSV",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ksv-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 13,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Cypher 091",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/cypher-091-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 14,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "PPSh-41",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 AGILITY STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ppsh-41-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 15,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "CR-56 AMAX",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/cr-56-amax-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 16,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "KOMPAKT 92",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kompakt-92-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 17,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "M4",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 KOMODO HEAVY \u2014 Muzzle",
+          "\u2022 HIGHTOWER 20\" BARREL \u2014 Barrel",
+          "\u2022 60 ROUND MAG \u2014 Magazine",
+          "\u2022 5.56 NATO LOW GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/m4-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 18,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "TR2",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/tr2-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 19,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "JACKAL PDW",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/jackal-pdw-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 20,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MX9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 16.5\" BRUEN S901 \u2014 Barrel",
+          "\u2022 EXTENDED MAG \u2014 Magazine",
+          "\u2022 BRUEN Q900 GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mx9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 21,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "DM-10",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 BUFFER WEIGHT STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/dm-10-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 22,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Sakin MG38",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 20\" BRUEN SILVER SERIES BARREL \u2014 Barrel",
+          "\u2022 XRK BOWBREAKER GRIP \u2014 Underbarrel",
+          "\u2022 7.62X51MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/sakin-mg38-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 23,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "XMG",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 BUFFER WEIGHT STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/xmg-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 24,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "HRM-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 THORN-90 BARREL \u2014 Barrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 HATCHET LIGHT STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/hrm-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 25,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "GREKHOVA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/grekhova-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 26,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-conversion-kit-smg-variant-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 27,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "PDSW 528",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 FTAC SERIES IX 14.5\" \u2014 Barrel",
+          "\u2022 CQB STOCK \u2014 Stock",
+          "\u2022 GR33 LIGHT RAIL \u2014 Rail",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pdsw-528-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 28,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "TAQ-56",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 CASUS BRAKE \u2014 Muzzle",
+          "\u2022 17.5\" TUNDRA PRO BARREL \u2014 Barrel",
+          "\u2022 60 ROUND MAG \u2014 Magazine",
+          "\u2022 5.56 NATO HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/taq-56-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 29,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 30,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Lachmann Shroud",
+        "class": [
+          "\u2022 JAK DECIMATOR \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 FT MOBILE STOCK \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lachmann-shroud-conversion-kit-jak-decimator-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 31,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "KATT-AMR",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 ZANG-34 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 EPHEMERAL QUICKBOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/katt-amr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 32,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "LR 7.62",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT HANDGUARD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lr-762-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 33,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "FJX Imperium",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 FAHRENHEIT 29\" \u2014 Barrel",
+          "\u2022 FJX KILO-TAC \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 .408 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-imperium-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 34,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "LW3A1 FROSTLINE",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Stock Pad",
+          "\u2022 QUICKDRAW RISER \u2014 Comb",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lw3a1-frostline-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 35,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Kar98k",
+        "class": [
+          "\u2022 RANGE CALLER V3.4 OPTIC \u2014 Optic",
+          "\u2022 SONIC SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 PR\u00c4ZISIONSGEWEHR 762 LONG BARREL \u2014 Barrel",
+          "\u2022 RECON SLING \u2014 Rear Grip",
+          "\u2022 7.92 HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kar98k-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 36,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Victus XMR",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 MACK 8 33.5 SUPER \u2014 Barrel",
+          "\u2022 XRK RISE 50 \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/victus-xmr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 37,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "AS VAL",
+        "class": [
+          "\u2022 SUPPRESSED REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 CQB GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/as-val-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 38,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Feng 82",
+        "class": [
+          "\u2022 OTERO RED DOT \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/feng-82-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 39,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MODEL L",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": "https://img.wzstats.gg/model-l-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 40,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "GOBLIN MK2",
+        "class": [
+          "\u2022 WILLIS 3X \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/goblin-mk-2-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 41,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "AMR MOD 4",
+        "class": [
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 .50 BMG OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://img.wzstats.gg/amr-mod-4-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 42,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "PP-919",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pp-919-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 43,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Striker",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 48 ROUND MAG \u2014 Magazine",
+          "\u2022 LACHMANN MK2 LIGHT STOCK \u2014 Stock",
+          "\u2022 .45 AUTO HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/striker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 44,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Pulemyot 762",
+        "class": [
+          "\u2022 JAK GLASSLESS OPTIC \u2014 Optic",
+          "\u2022 CASUS BRAKE \u2014 Muzzle",
+          "\u2022 ST PYRO HEAVY BARREL \u2014 Barrel",
+          "\u2022 IVANOV WOOD STOCK \u2014 Stock",
+          "\u2022 7.62X54MMR HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pulemyot-762-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 45,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "SIRIN 9mm",
+        "class": [
+          "\u2022 IRON SIGHT \u2014 Optic",
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/sirin-9mm-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 46,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Renetti",
+        "class": [
+          "\u2022 JAK FEROCITY CARBINE KIT \u2014 Conversion Kit",
+          "\u2022 SLIMLINE PRO \u2014 Optic",
+          "\u2022 XRK VENTOR-900 \u2014 Muzzle",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/renetti-conversion-kit-jak-ferocity-carbine-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 47,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MTZ-556",
+        "class": [
+          "\u2022 JAK GLASSLESS OPTIC \u2014 Optic",
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 MTZ CLINCH PRO BARREL \u2014 Barrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 MTZ MARAUDER STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mtz-556-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 48,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Superi 46",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 BORE 99 SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RESCUE-9 STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/superi-46-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 49,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MCW",
+        "class": [
+          "\u2022 JAK GLASSLESS OPTIC \u2014 Optic",
+          "\u2022 CASUS BRAKE \u2014 Muzzle",
+          "\u2022 16.5\" MCW CYCLONE LONG BARREL \u2014 Barrel",
+          "\u2022 60 ROUND DRUM \u2014 Magazine",
+          "\u2022 5.56 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mcw-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 50,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MORS",
+        "class": [
+          "\u2022 TONNE HEAVY BARREL \u2014 Barrel",
+          "\u2022 ICARUS LIGHT STOCK \u2014 Stock",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 HVP ANTI-MATERIEL SLUG \u2014 Ammunition",
+          "\u2022 QUICK BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mors-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 51,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "XRK Stalker",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 FISSION 60 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 XRK STALKER LIGHT BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/xrk-stalker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 52,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Essex Model 07\nNEW",
+        "class": [
+          "\u2022 JASON ARMORY 2X \u2014 Optic",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 QUICKDRAW LEVER \u2014 Lever",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": "https://img.wzstats.gg/essex-model-07-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 53,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 MARTIS HEAVY BARREL \u2014 Barrel",
+          "\u2022 60 ROUND DRUM \u2014 Magazine",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 54,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "Nail Gun",
+        "class": [],
+        "image": "https://img.wzstats.gg/nail-gun-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 55,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "BP50",
+        "class": [
+          "\u2022 JAK REVENGER KIT \u2014 Conversion Kit",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 CCG-TAC TAPE \u2014 Rear Grip",
+          "\u2022 1MW QUICK FIRE LASER \u2014 Laser",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/bp50-conversion-kit-jak-revenger-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 56,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "AMR9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 AMR9 REGAL PRO BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 PIPELINE PRO LTS \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/amr9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 57,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "RIVAL-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 BRUEN FLASH V4 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/rival-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 58,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 JAK SCIMITAR KIT \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 POC-S TAC GRIP \u2014 Rear Grip",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-conversion-kit-jak-scimitar-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 59,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MCW",
+        "class": [
+          "\u2022 JAK RAVEN KIT \u2014 Conversion Kit",
+          "\u2022 KIMURA BLACKIRON HEAVY SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RB RAPIDSTRIKE GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mcw-conversion-kit-jak-raven-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 60,
+        "mode": "Verdansk",
+        "range": "Long Range",
+        "gun": "MX Guardian",
+        "class": [
+          "\u2022 FLASH TWIST-90 \u2014 Muzzle",
+          "\u2022 HYP-LM \u2014 Barrel",
+          "\u2022 BRUEN HEAVY SUPPORT GRIP \u2014 Underbarrel",
+          "\u2022 MX DCP-0 \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Set aiming mode to \u2014 TACTICAL STANCE",
+          "\u2022 Jun 5, 2025"
+        ],
+        "image": "https://img.wzstats.gg/mx-guardian-bold/gunDisplayLoadouts",
+        "updated": ""
+      }
+    ],
+    "Verdansk_Close Range": [
+      {
+        "rank": 1,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "LC10\nNEW",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/LVSh6yz.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "C9",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/mHykzuL.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "LADRA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/a5ZMyXh.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "SAUG",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/nDSd6Um.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "KSV",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/VGSMuFM.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "PPSh-41",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 AGILITY STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ppsh-41-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "KOMPAKT 92",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kompakt-92-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "JACKAL PDW",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/jackal-pdw-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 9,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "MX9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 16.5\" BRUEN S901 \u2014 Barrel",
+          "\u2022 EXTENDED MAG \u2014 Magazine",
+          "\u2022 BRUEN Q900 GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mx9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "HRM-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 THORN-90 BARREL \u2014 Barrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 HATCHET LIGHT STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/hrm-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 11,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "GREKHOVA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG III \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/grekhova-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 12,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-conversion-kit-smg-variant-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 13,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "PDSW 528",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 FTAC SERIES IX 14.5\" \u2014 Barrel",
+          "\u2022 CQB STOCK \u2014 Stock",
+          "\u2022 GR33 LIGHT RAIL \u2014 Rail",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pdsw-528-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 14,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "Lachmann Shroud",
+        "class": [
+          "\u2022 JAK DECIMATOR \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 FT MOBILE STOCK \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/lachmann-shroud-conversion-kit-jak-decimator-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 15,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "PP-919",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pp-919-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 16,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "Striker",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 48 ROUND MAG \u2014 Magazine",
+          "\u2022 LACHMANN MK2 LIGHT STOCK \u2014 Stock",
+          "\u2022 .45 AUTO HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/striker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 17,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "Renetti",
+        "class": [
+          "\u2022 JAK FEROCITY CARBINE KIT \u2014 Conversion Kit",
+          "\u2022 SLIMLINE PRO \u2014 Optic",
+          "\u2022 XRK VENTOR-900 \u2014 Muzzle",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/renetti-conversion-kit-jak-ferocity-carbine-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 18,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "Superi 46",
+        "class": [
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 BORE 99 SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RESCUE-9 STOCK \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/superi-46-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 19,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 MARTIS HEAVY BARREL \u2014 Barrel",
+          "\u2022 60 ROUND DRUM \u2014 Magazine",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 20,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "Nail Gun",
+        "class": [],
+        "image": "https://img.wzstats.gg/nail-gun-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 21,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "BP50",
+        "class": [
+          "\u2022 JAK REVENGER KIT \u2014 Conversion Kit",
+          "\u2022 SHADOWSTRIKE SUPPRESSOR \u2014 Muzzle",
+          "\u2022 CCG-TAC TAPE \u2014 Rear Grip",
+          "\u2022 1MW QUICK FIRE LASER \u2014 Laser",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/bp50-conversion-kit-jak-revenger-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 22,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "AMR9",
+        "class": [
+          "\u2022 NYDAR MODEL 2023 \u2014 Optic",
+          "\u2022 AMR9 REGAL PRO BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 PIPELINE PRO LTS \u2014 Stock",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/amr9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 23,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "RIVAL-9",
+        "class": [
+          "\u2022 BRUEN PENDULUM \u2014 Muzzle",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 50 ROUND DRUM \u2014 Magazine",
+          "\u2022 BRUEN FLASH V4 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/rival-9-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 24,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "FJX Horus",
+        "class": [
+          "\u2022 JAK SCIMITAR KIT \u2014 Conversion Kit",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 POC-S TAC GRIP \u2014 Rear Grip",
+          "\u2022 MODUS 30 STOCK \u2014 Stock",
+          "\u2022 9MM HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/fjx-horus-conversion-kit-jak-scimitar-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 25,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "MCW",
+        "class": [
+          "\u2022 JAK RAVEN KIT \u2014 Conversion Kit",
+          "\u2022 KIMURA BLACKIRON HEAVY SHORT BARREL \u2014 Barrel",
+          "\u2022 JAK SLASH \u2014 Underbarrel",
+          "\u2022 40 ROUND MAG \u2014 Magazine",
+          "\u2022 RB RAPIDSTRIKE GRIP \u2014 Rear Grip",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mcw-conversion-kit-jak-raven-kit-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 26,
+        "mode": "Verdansk",
+        "range": "Close Range",
+        "gun": "MX Guardian",
+        "class": [
+          "\u2022 FLASH TWIST-90 \u2014 Muzzle",
+          "\u2022 HYP-LM \u2014 Barrel",
+          "\u2022 BRUEN HEAVY SUPPORT GRIP \u2014 Underbarrel",
+          "\u2022 MX DCP-0 \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 Set aiming mode to \u2014 TACTICAL STANCE",
+          "\u2022 Jun 5, 2025"
+        ],
+        "image": "https://img.wzstats.gg/mx-guardian-bold/gunDisplayLoadouts",
+        "updated": ""
+      }
+    ],
+    "Verdansk_Sniper": [
+      {
+        "rank": 1,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "HDR",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT BIPOD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 108MM OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/nmQlPiE.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "KATT-AMR",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 ZANG-34 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 EPHEMERAL QUICKBOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/4XFEMZM.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "LR 7.62",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT HANDGUARD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/3SWPruT.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "FJX Imperium",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 FAHRENHEIT 29\" \u2014 Barrel",
+          "\u2022 FJX KILO-TAC \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 .408 HIGH VELOCITY \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/uH3tGUH.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "LW3A1 FROSTLINE",
+        "class": [
+          "\u2022 MONOLITHIC SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Stock Pad",
+          "\u2022 QUICKDRAW RISER \u2014 Comb",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/cxq97W1.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "Kar98k",
+        "class": [
+          "\u2022 RANGE CALLER V3.4 OPTIC \u2014 Optic",
+          "\u2022 SONIC SUPPRESSOR L \u2014 Muzzle",
+          "\u2022 PR\u00c4ZISIONSGEWEHR 762 LONG BARREL \u2014 Barrel",
+          "\u2022 RECON SLING \u2014 Rear Grip",
+          "\u2022 7.92 HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kar98k-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "Victus XMR",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 MACK 8 33.5 SUPER \u2014 Barrel",
+          "\u2022 XRK RISE 50 \u2014 Stock",
+          "\u2022 KIMURA RYL33 LASER LIGHT \u2014 Laser",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/victus-xmr-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "AMR MOD 4",
+        "class": [
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 .50 BMG OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://img.wzstats.gg/amr-mod-4-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 9,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "MORS",
+        "class": [
+          "\u2022 TONNE HEAVY BARREL \u2014 Barrel",
+          "\u2022 ICARUS LIGHT STOCK \u2014 Stock",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 HVP ANTI-MATERIEL SLUG \u2014 Ammunition",
+          "\u2022 QUICK BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/mors-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Verdansk",
+        "range": "Sniper",
+        "gun": "XRK Stalker",
+        "class": [
+          "\u2022 VT-7 SPIRITFIRE SUPPRESSOR XL \u2014 Muzzle",
+          "\u2022 FISSION 60 BARREL \u2014 Barrel",
+          "\u2022 CORIO LAZ-44 V3 \u2014 Laser",
+          "\u2022 .50 CAL HIGH GRAIN ROUNDS \u2014 Ammunition",
+          "\u2022 XRK STALKER LIGHT BOLT \u2014 Bolt",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/xrk-stalker-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_Assault Rifle": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "FFAR 1\nNEW",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 G-GRIP \u2014 Underbarrel",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 Jun 4, 2025"
+        ],
+        "image": "https://i.imgur.com/dCqXhN5.png",
+        "updated": ""
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "CR-56 AMAX",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://i.imgur.com/vPlZHS5.png",
+        "updated": ""
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "KRIG C",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://i.imgur.com/pGLFabd.png",
+        "updated": ""
+      },
+      {
+        "rank": 4,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "Kilo 141",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://i.imgur.com/P1UjVL1.png",
+        "updated": ""
+      },
+      {
+        "rank": 5,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "XM4",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "AMES 85",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ames-85-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "AS VAL",
+        "class": [
+          "\u2022 SUPPRESSED LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG II \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/as-val-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "MODEL L",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 G-GRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": "https://img.wzstats.gg/model-l-bold/gunDisplayLoadouts",
+        "updated": ""
+      },
+      {
+        "rank": 9,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "Cypher 091",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/cypher-091-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "AK-74",
+        "class": [
+          "\u2022 ACCU-SPOT REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 STRELOK LASER \u2014 Laser",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ak-74-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 11,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "GPR 91",
+        "class": [
+          "\u2022 ACCU-SPOT REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/gpr-91-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 12,
+        "mode": "Multiplayer",
+        "range": "Assault Rifle",
+        "gun": "GOBLIN MK2",
+        "class": [
+          "\u2022 ACCU-SPOT REFLEX \u2014 Optic",
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/goblin-mk-2-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_SMG": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "LC10\nNEW",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://i.imgur.com/nLFRU0a.png",
+        "updated": ""
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "KSV",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 May 31, 2025"
+        ],
+        "image": "https://i.imgur.com/Toac8uL.png",
+        "updated": ""
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "C9",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/d6pcg9y.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "JACKAL PDW",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/a5NXcn5.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "LADRA",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/Ct6XcTa.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 6,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "PPSh-41",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 AGILITY STOCK \u2014 Stock",
+          "\u2022 TARGET LASER \u2014 Laser",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/ppsh-41-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 7,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "PP-919",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 FAST MAG II \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/pp-919-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 8,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "SAUG",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 TARGET LASER \u2014 Laser",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/saug-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 9,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "TANTO .22",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/tanto-22-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 10,
+        "mode": "Multiplayer",
+        "range": "SMG",
+        "gun": "KOMPAKT 92",
+        "class": [
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 STRELOK LASER \u2014 Laser",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://img.wzstats.gg/kompakt-92-bold/gunDisplayLoadouts",
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_Shotgun": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "Shotgun",
+        "gun": "ASG-89",
+        "class": [
+          "\u2022 MODIFIED CHOKE \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 TARGET LASER \u2014 Laser",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/QZX6Sgj.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "Shotgun",
+        "gun": "MAELSTROM",
+        "class": [
+          "\u2022 MODIFIED CHOKE \u2014 Muzzle",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 TACTICAL LASER \u2014 Laser",
+          "\u2022 12 GAUGE DRAGON'S BREATH \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/Gzj1SEG.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "Shotgun",
+        "gun": "Marine SP",
+        "class": [
+          "\u2022 MODIFIED CHOKE \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 QUICKDRAW STOCK \u2014 Stock",
+          "\u2022 TACTICAL LASER \u2014 Laser",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Set aiming mode to \u2014 TACTICAL STANCE",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/9Ov7Odq.png",
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_LMG": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "LMG",
+        "gun": "PU-21",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Jun 2, 2025"
+        ],
+        "image": "https://i.imgur.com/j8NtznB.png",
+        "updated": ""
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "LMG",
+        "gun": "XMG",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 BELT-FED \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/Cu7zj2g.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "LMG",
+        "gun": "Feng 82",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 BELT-FED \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": "https://i.imgur.com/M7SMbGH.png",
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Multiplayer",
+        "range": "LMG",
+        "gun": "GPMG-7",
+        "class": [
+          "\u2022 VOLZHSKIY REFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 BELT-FED \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 7.62 NATO OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_Marksman Rifle": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "Marksman Rifle",
+        "gun": "Essex Model 07\nNEW",
+        "class": [
+          "\u2022 JASON ARMORY 2X \u2014 Optic",
+          "\u2022 CHF BARREL \u2014 Barrel",
+          "\u2022 CUT-OFF STOCK \u2014 Stock",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 QUICKDRAW LEVER \u2014 Lever",
+          "\u2022 Jun 6, 2025"
+        ],
+        "image": null,
+        "updated": ""
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "Marksman Rifle",
+        "gun": "AEK-973",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 MUZZLE BRAKE \u2014 Muzzle",
+          "\u2022 VERTICAL FOREGRIP \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "Marksman Rifle",
+        "gun": "SWAT 5.56",
+        "class": [
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 FULL-AUTO EXTENDED MAG \u2014 Magazine",
+          "\u2022 CQB GRIP \u2014 Rear Grip",
+          "\u2022 SWAT 5.56 GRAU CONVERSION \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Multiplayer",
+        "range": "Marksman Rifle",
+        "gun": "DM-10",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 PORTED COMPENSATOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 PRECISION FOREGRIP \u2014 Underbarrel",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 COMBAT STOCK \u2014 Stock",
+          "\u2022 TARGET LASER \u2014 Laser",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Multiplayer",
+        "range": "Marksman Rifle",
+        "gun": "TR2",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 COMPENSATOR \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 RANGER FOREGRIP \u2014 Underbarrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 COMMANDO GRIP \u2014 Rear Grip",
+          "\u2022 INFILTRATOR STOCK \u2014 Stock",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_Sniper": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "Sniper",
+        "gun": "SVD",
+        "class": [
+          "\u2022 MUZZLE BRAKE \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 QUICKDRAW RISER \u2014 Comb",
+          "\u2022 7.62X54MMR OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "Sniper",
+        "gun": "AMR MOD 4",
+        "class": [
+          "\u2022 MUZZLE BRAKE \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Stock Pad",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 HEAVY RISER \u2014 Comb",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 STRELOK LASER \u2014 Laser",
+          "\u2022 RECOIL SPRINGS \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "Sniper",
+        "gun": "LW3A1 FROSTLINE",
+        "class": [
+          "\u2022 MUZZLE BRAKE \u2014 Muzzle",
+          "\u2022 REINFORCED BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT PAD \u2014 Stock Pad",
+          "\u2022 FAST MAG II \u2014 Magazine",
+          "\u2022 QUICKDRAW RISER \u2014 Comb",
+          "\u2022 HEAVY STOCK \u2014 Stock",
+          "\u2022 STRELOK LASER \u2014 Laser",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Multiplayer",
+        "range": "Sniper",
+        "gun": "LR 7.62",
+        "class": [
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 GAIN-TWIST BARREL \u2014 Barrel",
+          "\u2022 LIGHTWEIGHT HANDGUARD \u2014 Underbarrel",
+          "\u2022 FAST MAG II \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 HEAVY STOCK \u2014 Stock",
+          "\u2022 STRELOK LASER \u2014 Laser",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 5,
+        "mode": "Multiplayer",
+        "range": "Sniper",
+        "gun": "HDR",
+        "class": [
+          "\u2022 CHF BARREL \u2014 Barrel",
+          "\u2022 FAST MAG I \u2014 Magazine",
+          "\u2022 QUICKDRAW GRIP \u2014 Rear Grip",
+          "\u2022 HEAVY STOCK \u2014 Stock",
+          "\u2022 108MM OVERPRESSURED \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      }
+    ],
+    "Multiplayer_Pistol": [
+      {
+        "rank": 1,
+        "mode": "Multiplayer",
+        "range": "Pistol",
+        "gun": "GREKHOVA",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 2,
+        "mode": "Multiplayer",
+        "range": "Pistol",
+        "gun": "9mm PM",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 CHF BARREL \u2014 Barrel",
+          "\u2022 EXTENDED MAG I \u2014 Magazine",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 3,
+        "mode": "Multiplayer",
+        "range": "Pistol",
+        "gun": "STRYDER .22",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      },
+      {
+        "rank": 4,
+        "mode": "Multiplayer",
+        "range": "Pistol",
+        "gun": "GS45",
+        "class": [
+          "\u2022 KEPLER MICROFLEX \u2014 Optic",
+          "\u2022 SUPPRESSOR \u2014 Muzzle",
+          "\u2022 LONG BARREL \u2014 Barrel",
+          "\u2022 ERGONOMIC GRIP \u2014 Rear Grip",
+          "\u2022 RAPID FIRE \u2014 Fire Mods",
+          "\u2022 Up to date for \u2014 Season 4"
+        ],
+        "image": null,
+        "updated": "Unknown"
+      }
+    ]
+  }
+}
