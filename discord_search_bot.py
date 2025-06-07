@@ -121,10 +121,12 @@ async def on_ready():
         # Sync to all guilds the bot is in
         for guild in bot.guilds:
             print(f"🔄 Syncing commands to {guild.name}...")
-            await bot.tree.sync(guild=guild)
+            synced = await bot.tree.sync(guild=guild)
+            print(f"✅ Synced {len(synced)} commands to {guild.name}")
         print("✅ Successfully synced commands to all servers")
     except Exception as e:
         print(f"❌ Failed to sync commands: {e}")
+        print("Please ensure the bot has the 'applications.commands' scope when invited")
 
 @bot.tree.command(name="search", description="Search for a weapon loadout")
 async def search(interaction: discord.Interaction, weapon_name: str):
