@@ -11,6 +11,15 @@ from playwright.sync_api import sync_playwright
 load_dotenv()
 ALL_GUNS_STORE = "all_guns_database.json"
 
+# === Test Mode ===
+TEST_MODE = True  # Set to False to scrape all categories
+TEST_CATEGORY = {
+    "mode": "Resurgence",
+    "url": "https://wzstats.gg/warzone/meta/resurgence",
+    "range": "Long Range",
+    "selector": None
+}
+
 # === Config ===
 MODES = {
     "Resurgence": "https://wzstats.gg/warzone/meta/resurgence",
@@ -142,31 +151,51 @@ def load_all_guns_database():
     return {"categories": {}, "total_guns": 0}
 
 if __name__ == "__main__":
-    print("🚀 Starting comprehensive gun database scraper...")
+    print("🚀 Starting gun database scraper...")
     
     all_guns_database = {}
     total_guns = 0
     
-    for mode, url in MODES.items():
-        if mode == "Multiplayer":
-            # Use weapon types for Multiplayer
-            categories = MULTIPLAYER_WEAPONS
-        else:
-            # Use ranges for Warzone modes (Resurgence/Verdansk)
-            categories = WARZONE_RANGES
+    if TEST_MODE:
+        print("🧪 Running in TEST MODE - only scraping one category")
+        mode = TEST_CATEGORY["mode"]
+        url = TEST_CATEGORY["url"]
+        category_label = TEST_CATEGORY["range"]
+        selector = TEST_CATEGORY["selector"]
         
-        for category_label, selector in categories.items():
-            category_key = f"{mode}_{category_label}"
-            print(f"🔍 Scraping ALL guns in {mode} [{category_label}]...")
+        category_key = f"{mode}_{category_label}"
+        print(f"🔍 Scraping ALL guns in {mode} [{category_label}]...")
+        
+        try:
+            all_guns = scrape_all_guns(mode, url, category_label, selector)
+            all_guns_database[category_key] = all_guns
+            total_guns += len(all_guns)
+            print(f"✅ Successfully scraped {len(all_guns)} guns from {category_key}")
+        except Exception as e:
+            print(f"❌ Error scraping {category_key}: {e}")
+            all_guns_database[category_key] = []
+    else:
+        print("🚀 Running in FULL MODE - scraping all categories")
+        for mode, url in MODES.items():
+            if mode == "Multiplayer":
+                # Use weapon types for Multiplayer
+                categories = MULTIPLAYER_WEAPONS
+            else:
+                # Use ranges for Warzone modes (Resurgence/Verdansk)
+                categories = WARZONE_RANGES
             
-            try:
-                all_guns = scrape_all_guns(mode, url, category_label, selector)
-                all_guns_database[category_key] = all_guns
-                total_guns += len(all_guns)
-                print(f"✅ Successfully scraped {len(all_guns)} guns from {category_key}")
-            except Exception as e:
-                print(f"❌ Error scraping {category_key}: {e}")
-                all_guns_database[category_key] = []
+            for category_label, selector in categories.items():
+                category_key = f"{mode}_{category_label}"
+                print(f"🔍 Scraping ALL guns in {mode} [{category_label}]...")
+                
+                try:
+                    all_guns = scrape_all_guns(mode, url, category_label, selector)
+                    all_guns_database[category_key] = all_guns
+                    total_guns += len(all_guns)
+                    print(f"✅ Successfully scraped {len(all_guns)} guns from {category_key}")
+                except Exception as e:
+                    print(f"❌ Error scraping {category_key}: {e}")
+                    all_guns_database[category_key] = []
 
     # Save comprehensive database
     save_all_guns_database(all_guns_database)
