@@ -35,18 +35,22 @@ jobs:
         
     - name: 🔫 Run gun scraper
       run: |
+        pwd  # Show current directory
         python scrape.py
         
     - name: 📊 Verify database
       run: |
-        python test_database.py
-        ls -la all_guns_database.json
+        pwd  # Show current directory
+        echo "=== Directory contents ==="
+        ls -la
+        echo "=== Database file details ==="
+        ls -la all_guns_database.json || echo "File not found!"
         
     - name: 💾 Upload gun database artifact
       uses: actions/upload-artifact@v4
       with:
         name: gun-database
-        path: all_guns_database.json
+        path: ${{ github.workspace }}/all_guns_database.json
         retention-days: 30
         
     - name: 📈 Create database summary
