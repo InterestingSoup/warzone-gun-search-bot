@@ -17,8 +17,7 @@ ALL_GUNS_STORE = "all_guns_database.json"
 intents = discord.Intents.default()
 intents.message_content = True
 intents.guilds = True  # Enable guild (server) intents
-bot = commands.Bot(command_prefix=None, intents=intents)
-
+bot = commands.Bot(command_prefix="!", intents=intents)  # or any other prefix
 def load_all_guns_database():
     """Load the comprehensive guns database"""
     if os.path.exists(ALL_GUNS_STORE):
