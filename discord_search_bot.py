@@ -15,7 +15,7 @@ ALL_GUNS_STORE = "all_guns_database.json"
 # === Bot Setup ===
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix=None, intents=intents)  # Remove prefix commands
 
 def load_all_guns_database():
     """Load the comprehensive guns database"""
@@ -113,6 +113,7 @@ def format_gun_embed(gun):
 async def on_ready():
     print(f"🤖 Search Bot logged in as {bot.user}")
     try:
+        # Sync commands with Discord
         synced = await bot.tree.sync()
         print(f"✅ Synced {len(synced)} slash commands")
     except Exception as e:

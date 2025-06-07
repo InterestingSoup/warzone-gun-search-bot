@@ -34,8 +34,6 @@ jobs:
         playwright install chromium
         
     - name: 🔫 Run gun scraper
-      env:
-        IMGUR_CLIENT_ID: ${{ secrets.IMGUR_CLIENT_ID }}
       run: |
         python scrape.py
         
