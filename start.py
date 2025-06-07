@@ -147,7 +147,12 @@ def main():
     print("📡 Bot will be available for slash commands")
     
     # Start Discord bot in a separate thread
-    start_discord_bot()  # runs in main thread
+# Start health check server in a thread instead
+    health_thread = threading.Thread(target=start_health_server, daemon=True)
+    health_thread.start()
+
+# Run the bot in the main thread (REQUIRED for asyncio to work properly)
+    start_discord_bot()
 
     
     # Start health check server (this will run indefinitely)

@@ -128,14 +128,14 @@ async def on_ready():
         print("Please ensure the bot has the 'applications.commands' scope when invited")
 
 @bot.event
-async def on_message(message):
-    # Ignore messages from the bot itself
-    if message.author == bot.user:
-        return
-    
-    # Only process commands if they start with the prefix
-    if message.content.startswith('!'):
-        await bot.process_commands(message)
+async def on_ready():
+    print(f"🤖 Bot is ready! Logged in as {bot.user}")
+    print("🔄 Syncing slash commands...")
+    try:
+        synced = await bot.tree.sync()
+        print(f"✅ Synced {len(synced)} commands")
+    except Exception as e:
+        print(f"❌ Failed to sync commands: {e}")
 
 @bot.tree.command(name="search", description="Search for a weapon loadout")
 async def search(interaction: discord.Interaction, weapon_name: str):
@@ -312,10 +312,4 @@ async def range_type_autocomplete(interaction: discord.Interaction, current: str
         for range_type in ranges if current.lower() in range_type.lower()
     ][:25]  # Discord limits to 25 choices
 
-if __name__ == "__main__":
-    if not DISCORD_BOT_TOKEN:
-        print("❌ DISCORD_SEARCH_BOT_TOKEN not found in environment variables")
-        print("Add DISCORD_SEARCH_BOT_TOKEN=your_bot_token to your .env file")
-        exit(1)
-    
-    bot.run(DISCORD_BOT_TOKEN) 
+# ✅ No `bot.run()` here!
