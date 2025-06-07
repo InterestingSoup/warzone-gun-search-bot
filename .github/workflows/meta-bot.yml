@@ -78,14 +78,4 @@ jobs:
         run: |
           echo "## 🔫 Gun Database Update" >> $GITHUB_STEP_SUMMARY
           echo "**Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
-          python -c "
-import json
-with open('all_guns_database.json', 'r') as f:
-    db = json.load(f)
-print(f'**Total Guns:** {db[\"total_guns\"]}')
-print(f'**Last Updated:** {db[\"last_updated\"]}')
-print('**Categories:**')
-for cat, guns in db['categories'].items():
-    cat_name = cat.replace('_', ' - ')
-    print(f'- {cat_name}: {len(guns)} weapons')
-          " >> $GITHUB_STEP_SUMMARY
+          python -c 'import json; f=open("all_guns_database.json"); db=json.load(f); print(f"**Total Guns:** {db[\"total_guns\"]}"); print(f"**Last Updated:** {db[\"last_updated\"]}"); print("**Categories:**"); [print(f"- {cat.replace(\"_\", \" - \")}: {len(guns)} weapons") for cat, guns in db["categories"].items()]' >> $GITHUB_STEP_SUMMARY
