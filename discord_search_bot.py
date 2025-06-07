@@ -127,6 +127,16 @@ async def on_ready():
         print(f"❌ Failed to sync commands: {e}")
         print("Please ensure the bot has the 'applications.commands' scope when invited")
 
+@bot.event
+async def on_message(message):
+    # Ignore messages from the bot itself
+    if message.author == bot.user:
+        return
+    
+    # Only process commands if they start with the prefix
+    if message.content.startswith('!'):
+        await bot.process_commands(message)
+
 @bot.tree.command(name="search", description="Search for a weapon loadout")
 async def search(interaction: discord.Interaction, weapon_name: str):
     """Search for a weapon by name"""
