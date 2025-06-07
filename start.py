@@ -85,7 +85,8 @@ class HealthCheckHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-type', 'text/html')
             self.end_headers()
-            self.wfile.write(b'<html><body><h1>🔫 Warzone Gun Search Bot</h1><p>Discord bot is running!</p><p><a href="/health">Health Check</a></p></body></html>')
+            html_response = '<html><body><h1>Warzone Gun Search Bot</h1><p>Discord bot is running!</p><p><a href="/health">Health Check</a></p></body></html>'
+            self.wfile.write(html_response.encode('utf-8'))
     
     def log_message(self, format, *args):
         # Suppress default HTTP logs to keep Discord logs clean
