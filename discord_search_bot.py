@@ -108,7 +108,7 @@ def format_gun_embed(gun):
     if gun.get("image"):
         embed.set_thumbnail(url=gun["image"])
     
-    embed.set_footer(text=f"🔍 Warzone Gun Database")
+    embed.set_footer(text=f"🔍 BO6 Meta Gun Database")
     return embed
 
 @bot.event
