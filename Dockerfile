@@ -25,20 +25,30 @@ COPY . .
 RUN echo "Using GitHub token: ${GITHUB_TOKEN}" && [ ! -z "$GITHUB_TOKEN" ] || (echo "❌ GITHUB_TOKEN is missing!" && exit 1)
 
 # Download latest gun database artifact
-RUN echo "📦 Fetching gun-database artifact..." && \
-    ARTIFACT_URL=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
-    -H "Accept: application/vnd.github.v3+json" \
-    "https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/actions/artifacts" | \
-    jq -r '.artifacts[] | select(.name=="gun-database") | .archive_download_url') && \
-    echo "Artifact URL: $ARTIFACT_URL" && \
+RUN set -e && \
+    echo "📦 Starting artifact fetch..." && \
+    echo "👀 Getting artifact list from GitHub..." && \
+    ARTIFACT_JSON=$(curl -v -s -H "Authorization: token ${GITHUB_TOKEN}" \
+      -H "Accept: application/vnd.github.v3+json" \
+      "https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/actions/artifacts") && \
+    echo "📄 Artifact JSON: $ARTIFACT_JSON" && \
+    ARTIFACT_URL=$(echo "$ARTIFACT_JSON" | jq -r '.artifacts[] | select(.name=="gun-database") | .archive_download_url') && \
+    echo "🔗 Artifact URL: $ARTIFACT_URL" && \
     if [ -z "$ARTIFACT_URL" ]; then \
         echo "❌ Error: Could not find gun-database artifact." && exit 1; \
     fi && \
-    curl -sL -H "Authorization: token ${GITHUB_TOKEN}" \
-    -H "Accept: application/vnd.github.v3+json" "$ARTIFACT_URL" -o gun-database.zip && \
+    echo "⬇️ Downloading artifact..." && \
+    curl -v -sL -H "Authorization: token ${GITHUB_TOKEN}" \
+      -H "Accept: application/vnd.github.v3+json" "$ARTIFACT_URL" -o gun-database.zip && \
+    echo "📂 Unzipping artifact..." && \
+    unzip -l gun-database.zip && \
     unzip -o gun-database.zip && \
+    echo "📁 Moving JSON file..." && \
     mv artifacts/all_guns_database.json . && \
-    rm -rf artifacts gun-database.zip
+    echo "🧹 Cleaning up..." && \
+    rm -rf artifacts gun-database.zip && \
+    echo "✅ Artifact setup complete"
+
 
 # Expose port
 EXPOSE 10000
