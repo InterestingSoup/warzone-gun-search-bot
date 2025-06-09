@@ -15,21 +15,22 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy requirements and install Python packages
+# Copy requirements first
 COPY discord_bot_requirements.txt .
 RUN pip install --no-cache-dir -r discord_bot_requirements.txt
 
-# Copy application code
+# Copy rest of the application
 COPY . .
 
 # Download latest gun database artifact
-RUN set -e && \
+RUN echo "📦 Fetching gun-database artifact..." && \
     ARTIFACT_URL=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
     -H "Accept: application/vnd.github.v3+json" \
     "https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/actions/artifacts" | \
     jq -r '.artifacts[] | select(.name=="gun-database") | .archive_download_url') && \
+    echo "Artifact URL: $ARTIFACT_URL" && \
     if [ -z "$ARTIFACT_URL" ]; then \
-        echo "Error: Could not find gun-database artifact" && exit 1; \
+        echo "❌ Error: Could not find gun-database artifact." && exit 1; \
     fi && \
     curl -sL -H "Authorization: token ${GITHUB_TOKEN}" \
     -H "Accept: application/vnd.github.v3+json" "$ARTIFACT_URL" -o gun-database.zip && \
@@ -40,5 +41,5 @@ RUN set -e && \
 # Expose port
 EXPOSE 10000
 
-# Start the application
+# Run the bot
 CMD ["python", "start.py"]
