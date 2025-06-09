@@ -28,7 +28,7 @@ RUN echo "Using GitHub token: ${GITHUB_TOKEN}" && [ ! -z "$GITHUB_TOKEN" ] || (e
 RUN set -e && \
     echo "📦 Starting artifact fetch..." && \
     echo "👀 Getting artifact list from GitHub..." && \
-    ARTIFACT_JSON=$(curl -v -s -H "Authorization: token ${GITHUB_TOKEN}" \
+    ARTIFACT_JSON=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
       -H "Accept: application/vnd.github.v3+json" \
       "https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/actions/artifacts") && \
     echo "📄 Artifact JSON: $ARTIFACT_JSON" && \
@@ -39,7 +39,7 @@ RUN set -e && \
     fi && \
     echo "⬇️ Downloading artifact..." && \
     curl -v -sL -H "Authorization: token ${GITHUB_TOKEN}" \
-      -H "Accept: application/vnd.github.v3+json" "$ARTIFACT_URL" -o gun-database.zip && \
+      -H "Accept: application/zip" "$ARTIFACT_URL" -o gun-database.zip && \
     echo "📂 Unzipping artifact..." && \
     unzip -l gun-database.zip && \
     unzip -o gun-database.zip && \
