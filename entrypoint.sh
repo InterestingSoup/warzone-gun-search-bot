@@ -21,9 +21,10 @@ fi
 
 echo "🔗 Artifact URL: $ARTIFACT_URL"
 
-curl -sL -H "Authorization: token ${GITHUB_TOKEN}" \
-  -H "Accept: application/vnd.github.v3+json" \
-  "$ARTIFACT_URL" -o gun-database.zip || { echo "❌ Artifact download failed"; exit 1; }
+curl -L \
+  -H "Authorization: token ${GITHUB_TOKEN}" \
+  -H "Accept: application/vnd.github+json" \
+  "${ARTIFACT_URL}" -o gun-database.zip || { echo "❌ Artifact download failed"; exit 1; }
 
 echo "📂 Unzipping artifact..."
 unzip -l gun-database.zip || { echo "❌ Unzip listing failed"; exit 1; }
