@@ -35,7 +35,7 @@ curl -L \
 
 # Unzip and move file
 unzip -o gun-database.zip
-mv artifacts/all_guns_database.json . || {
+mv all_guns_database.json . || {
   echo "❌ Missing expected file in artifact."
   exit 1
 }
