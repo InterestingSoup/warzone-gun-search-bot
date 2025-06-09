@@ -11,11 +11,11 @@ RUN apt-get update && apt-get install -y \
     curl \
     unzip \
     && rm -rf /var/lib/apt/lists/*
-    
+
 # Set working directory
 WORKDIR /app
 
-# Copy requirements first for better caching
+# Copy requirements and install Python packages
 COPY discord_bot_requirements.txt .
 RUN pip install --no-cache-dir -r discord_bot_requirements.txt
 
@@ -41,4 +41,4 @@ RUN set -e && \
 EXPOSE 10000
 
 # Start the application
-CMD ["python", "start.py"] 
+CMD ["python", "start.py"]
