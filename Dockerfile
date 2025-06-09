@@ -15,12 +15,14 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy requirements first
+# Copy requirements first for better caching
 COPY discord_bot_requirements.txt .
 RUN pip install --no-cache-dir -r discord_bot_requirements.txt
 
 # Copy rest of the application
 COPY . .
+
+RUN echo "Using GitHub token: ${GITHUB_TOKEN}" && [ ! -z "$GITHUB_TOKEN" ] || (echo "❌ GITHUB_TOKEN is missing!" && exit 1)
 
 # Download latest gun database artifact
 RUN echo "📦 Fetching gun-database artifact..." && \
@@ -41,5 +43,5 @@ RUN echo "📦 Fetching gun-database artifact..." && \
 # Expose port
 EXPOSE 10000
 
-# Run the bot
+# Start app
 CMD ["python", "start.py"]
