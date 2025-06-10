@@ -72,3 +72,10 @@ jobs:
           name: gun-database
           path: all_guns_database.json
           retention-days: 7
+
+      - name: Trigger Coolify redeploy
+        if: success()
+        run: |
+          curl -X POST "https://decendata.com/api/v1/deploy?uuid=lc0ggsks8oc8ckgg04gcc8sg&force=true" \
+            -H "Authorization: Bearer ${{ secrets.COOLIFY_API_TOKEN }}" \
+            -H "Content-Type: application/json"
