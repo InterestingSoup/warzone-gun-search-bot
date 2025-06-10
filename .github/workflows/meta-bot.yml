@@ -19,22 +19,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-          
-      - name: Notify Discord of GitHub success
-        if: success()
-        run: |
-          BUILD_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          curl -X POST -H "Content-Type: application/json" \
-            -d "{
-              \"embeds\": [{
-                \"title\": \"✅ GitHub Workflow Completed\",
-                \"description\": \"**Meta Bot** successfully scraped and uploaded the gun database.\n\n[🔍 View Build Logs]($BUILD_URL)\",
-                \"color\": 3066993,
-                \"footer\": { \"text\": \"GitHub Action • Meta Bot\" },
-                \"timestamp\": \"$(date --utc +%Y-%m-%dT%H:%M:%SZ)\"
-              }]
-            }" \
-            ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Install dependencies
         run: |
@@ -95,3 +79,19 @@ jobs:
           curl -X POST "https://decendata.com/api/v1/deploy?uuid=lc0ggsks8oc8ckgg04gcc8sg&force=true" \
             -H "Authorization: Bearer ${{ secrets.COOLIFY_API_TOKEN }}" \
             -H "Content-Type: application/json"
+            
+      - name: Notify Discord of GitHub success
+        if: success()
+        run: |
+          BUILD_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          curl -X POST -H "Content-Type: application/json" \
+            -d "{
+              \"embeds\": [{
+                \"title\": \"✅ GitHub Workflow Completed\",
+                \"description\": \"**BO6 Meta Search Bot** successfully scraped and uploaded the gun database.\n\n[🔍 View Build Logs]($BUILD_URL)\",
+                \"color\": 3066993,
+                \"footer\": { \"text\": \"GitHub Action • Meta Search Bot\" },
+                \"timestamp\": \"$(date --utc +%Y-%m-%dT%H:%M:%SZ)\"
+              }]
+            }" \
+            ${{ secrets.DISCORD_WEBHOOK_URL }}
