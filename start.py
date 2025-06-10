@@ -11,6 +11,20 @@ import threading
 import json
 from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
+import requests
+import datetime
+
+webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
+if webhook_url:
+    requests.post(webhook_url, json={
+        "embeds": [{
+            "title": "🚀 B06 Meta Search Bot Re-Deployed",
+            "description": "The Discord bot has been redeployed and started.",
+            "color": 3447003,
+            "footer": { "text": "Coolify Deploy" },
+            "timestamp": datetime.datetime.utcnow().isoformat()
+        }]
+    })
 
 def download_latest_database():
     """Download the latest database before starting the bot"""
