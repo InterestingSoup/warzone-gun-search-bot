@@ -19,6 +19,22 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          
+      - name: Notify Discord of GitHub success
+        if: success()
+        run: |
+          BUILD_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          curl -X POST -H "Content-Type: application/json" \
+            -d "{
+              \"embeds\": [{
+                \"title\": \"✅ GitHub Workflow Completed\",
+                \"description\": \"**Meta Bot** successfully scraped and uploaded the gun database.\n\n[🔍 View Build Logs]($BUILD_URL)\",
+                \"color\": 3066993,
+                \"footer\": { \"text\": \"GitHub Action • Meta Bot\" },
+                \"timestamp\": \"$(date --utc +%Y-%m-%dT%H:%M:%SZ)\"
+              }]
+            }" \
+            ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Install dependencies
         run: |
@@ -27,21 +43,6 @@ jobs:
           pip install Pillow pillow-avif-plugin
           python -m playwright install --with-deps
           
-      - name: Notify Discord of GitHub success
-        if: success()
-        run: |
-          curl -X POST -H "Content-Type: application/json" \
-            -d '{
-              "embeds": [{
-                "title": "✅ GitHub Workflow Completed",
-                "description": "**Meta Bot** successfully scraped and uploaded the gun database.",
-                "color": 3066993,
-                "footer": { "text": "GitHub Action • Meta Bot" },
-                "timestamp": "'$(date --utc +%Y-%m-%dT%H:%M:%SZ)'"
-              }]
-            }' \
-            ${{ secrets.DISCORD_WEBHOOK_URL }}
-
       - name: Run scraper
         id: scrape
         run: |
