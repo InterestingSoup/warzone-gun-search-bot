@@ -26,6 +26,21 @@ jobs:
           pip install -r requirements.txt
           pip install Pillow pillow-avif-plugin
           python -m playwright install --with-deps
+          
+      - name: Notify Discord of GitHub success
+        if: success()
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+            -d '{
+              "embeds": [{
+                "title": "✅ GitHub Workflow Completed",
+                "description": "**Meta Bot** successfully scraped and uploaded the gun database.",
+                "color": 3066993,
+                "footer": { "text": "GitHub Action • Meta Bot" },
+                "timestamp": "'$(date --utc +%Y-%m-%dT%H:%M:%SZ)'"
+              }]
+            }' \
+            ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Run scraper
         id: scrape
