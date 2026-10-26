@@ -22,12 +22,12 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 from meta_store import store
 
-REFRESH_HOURS = float(os.getenv("MW4_REFRESH_HOURS", "6"))
+REFRESH_HOURS = float(os.getenv("META_REFRESH_HOURS", os.getenv("MW4_REFRESH_HOURS", "6")))
 
 INDEX = {
     "service": "game meta query API",
     "how_to_use": [
-        "1. GET /api/games to see which games exist (e.g. mw4, warzone, bo6).",
+        "1. GET /api/games to see which games exist (mw4, warzone, bo6, bo7).",
         "2. GET /api/games/{game} to get its modes, categories and weapon types. "
         "If the user didn't say which mode/category they want, ask them using these options.",
         "3. GET /api/games/{game}/meta?mode=...&category=... for the meta class (top weapons with best build).",
@@ -88,20 +88,20 @@ def write_json(handler: BaseHTTPRequestHandler, status: int, payload):
 
 
 def start_refresher():
-    """Re-scrape MW4 on an interval (it's plain HTTP, so it can run in-container)."""
-    from games import mw4
+    """Re-scrape every wzstats game on an interval (plain HTTP, so it runs in-container)."""
+    from games import wzstats
 
     def loop():
         while True:
             try:
-                mw4.main()
+                wzstats.refresh()
                 store.reload()
-            except BaseException as e:  # mw4.main() sys.exit()s on empty scrape
-                print(f"⚠️ MW4 refresh failed: {e}")
+            except Exception as e:
+                print(f"⚠️ Meta refresh failed: {e}")
             time.sleep(REFRESH_HOURS * 3600)
 
     if REFRESH_HOURS > 0:
-        threading.Thread(target=loop, daemon=True, name="mw4-refresh").start()
+        threading.Thread(target=loop, daemon=True, name="meta-refresh").start()
 
 
 class ApiHandler(BaseHTTPRequestHandler):

@@ -2,15 +2,11 @@
  "game": "mw4",
  "name": "Modern Warfare 4",
  "source": "https://wzstats.gg/mw4/meta",
- "scraped_at": "2026-10-26T02:21:15Z",
+ "scraped_at": "2026-10-26T04:33:29Z",
  "modes": [
   {
    "id": "multiplayer",
    "name": "Multiplayer"
-  },
-  {
-   "id": "resurgence",
-   "name": "Resurgence"
   },
   {
    "id": "dmz-pvp",
@@ -64,51 +60,6 @@
    ],
    "D": [
     "50-gs-mw4",
-    "astaroth-57-mw4",
-    "sang-9mm-mw4",
-    "mojave-357-mw4",
-    "pila-mw4",
-    "rpg-8-mw4",
-    "jokr-mw4",
-    "pm-40-anvil-mw4",
-    "fss-carbon-edge-1095-mw4"
-   ]
-  },
-  "resurgence": {
-   "META": [
-    "han-86-mw4",
-    "iso-nightshade-mw4",
-    "m4-mw4",
-    "x-58-nyx-mw4",
-    "kastov-762-mw4",
-    "kg-7-vulcan-mw4"
-   ],
-   "A": [
-    "partriot-xmr-mw4",
-    "ppsh-41-mw4",
-    "finn-lmg-mw4",
-    "type-73-mw4",
-    "rezi-12-mw4"
-   ],
-   "B": [
-    "krait-p68-mw4"
-   ],
-   "C": [
-    "signal-50-mw4"
-   ],
-   "D": [
-    "50-gs-mw4",
-    "oris-86-mw4",
-    "mar-9-mw4",
-    "hyeon-burst-mw4",
-    "oden-mw4",
-    "axion-mw4",
-    "cronen-squall-mw4",
-    "vel-46-mw4",
-    "wz55-striga-mw4",
-    "warlord-mw4",
-    "apoc-338-mw4",
-    "mosin-nagant-mw4",
     "astaroth-57-mw4",
     "sang-9mm-mw4",
     "mojave-357-mw4",
@@ -218,14 +169,11 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
-     "tier": "META",
-     "rank": 1
-    },
-    "resurgence": {
      "tier": "META",
      "rank": 1
     },
@@ -241,12 +189,13 @@
    "builds": [
     {
      "id": "han-86-mw4-wzstats-2a16eb",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -282,12 +231,15 @@
     },
     {
      "id": "han-86-mw4-wzstats-b4814f",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -325,12 +277,15 @@
     },
     {
      "id": "han-86-mw4-wzstats-8a9904",
-     "mode": "dmz-pvp",
+     "modes": [
+      "dmz-pvp"
+     ],
+     "best_for_modes": [
+      "dmz-pvp"
+     ],
      "playstyle": "Long Range",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -370,14 +325,11 @@
    "type_id": "smg",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
-     "tier": "META",
-     "rank": 2
-    },
-    "resurgence": {
      "tier": "META",
      "rank": 2
     },
@@ -393,12 +345,13 @@
    "builds": [
     {
      "id": "iso-nightshade-mw4-wzstats-fe175e",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -433,12 +386,15 @@
     },
     {
      "id": "iso-nightshade-mw4-wzstats-7bc8a7",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -475,12 +431,15 @@
     },
     {
      "id": "iso-nightshade-mw4-wzstats-7f2348",
-     "mode": "dmz-pvp",
+     "modes": [
+      "dmz-pvp"
+     ],
+     "best_for_modes": [
+      "dmz-pvp"
+     ],
      "playstyle": "Short Range",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -524,14 +483,11 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 14,
    "by_mode": {
     "multiplayer": {
-     "tier": "META",
-     "rank": 3
-    },
-    "resurgence": {
      "tier": "META",
      "rank": 3
     },
@@ -547,12 +503,15 @@
    "builds": [
     {
      "id": "m4-mw4-wzstats-d1a8fb",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -589,12 +548,13 @@
     },
     {
      "id": "m4-mw4-wzstats-cc70d4",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -630,12 +590,13 @@
     },
     {
      "id": "m4-mw4-wzstats-0ffee5",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -677,12 +638,15 @@
     },
     {
      "id": "m4-mw4-wzstats-91e0eb",
-     "mode": "dmz-pvp",
+     "modes": [
+      "dmz-pvp"
+     ],
+     "best_for_modes": [
+      "dmz-pvp"
+     ],
      "playstyle": "Long Range",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -727,16 +691,13 @@
    "type_id": "smg",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 13,
    "by_mode": {
     "multiplayer": {
      "tier": "META",
      "rank": 4
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 21
     },
     "dmz-pvp": {
      "tier": "D",
@@ -750,12 +711,15 @@
    "builds": [
     {
      "id": "vel-46-mw4-wzstats-c6eaf6",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -792,12 +756,13 @@
     },
     {
      "id": "vel-46-mw4-wzstats-31e54e",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -847,14 +812,11 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 34,
    "by_mode": {
     "multiplayer": {
-     "tier": "META",
-     "rank": 5
-    },
-    "resurgence": {
      "tier": "META",
      "rank": 5
     },
@@ -870,12 +832,13 @@
    "builds": [
     {
      "id": "kastov-762-mw4-wzstats-d607b5",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -912,12 +875,15 @@
     },
     {
      "id": "kastov-762-mw4-wzstats-bf2364",
-     "mode": "dmz-pvp",
+     "modes": [
+      "dmz-pvp"
+     ],
+     "best_for_modes": [
+      "dmz-pvp"
+     ],
      "playstyle": "Long Range",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -962,16 +928,13 @@
    "type_id": "smg",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 34,
    "by_mode": {
     "multiplayer": {
      "tier": "META",
      "rank": 6
-    },
-    "resurgence": {
-     "tier": "META",
-     "rank": 4
     },
     "dmz-pvp": {
      "tier": "A",
@@ -985,12 +948,15 @@
    "builds": [
     {
      "id": "x-58-nyx-mw4-wzstats-5d49cd",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "barrel",
@@ -1035,16 +1001,13 @@
    "type_id": "marksman-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 36,
    "by_mode": {
     "multiplayer": {
      "tier": "META",
      "rank": 7
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 25
     },
     "dmz-pvp": {
      "tier": "D",
@@ -1058,12 +1021,15 @@
    "builds": [
     {
      "id": "mosin-nagant-mw4-wzstats-0a9f71",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Build",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1107,16 +1073,13 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 52,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 8
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 19
     },
     "dmz-pvp": {
      "tier": "D",
@@ -1130,12 +1093,15 @@
    "builds": [
     {
      "id": "axion-mw4-wzstats-ab4958",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1171,12 +1137,15 @@
     },
     {
      "id": "axion-mw4-wzstats-149852",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "barrel",
@@ -1221,16 +1190,13 @@
    "type_id": "smg",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 27,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 9
-    },
-    "resurgence": {
-     "tier": "A",
-     "rank": 8
     },
     "dmz-pvp": {
      "tier": "META",
@@ -1244,12 +1210,13 @@
    "builds": [
     {
      "id": "ppsh-41-mw4-wzstats-c1efac",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1285,12 +1252,15 @@
     },
     {
      "id": "ppsh-41-mw4-wzstats-261f98",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1326,12 +1296,15 @@
     },
     {
      "id": "ppsh-41-mw4-wzstats-227afe",
-     "mode": "dmz-pvp",
+     "modes": [
+      "dmz-pvp"
+     ],
+     "best_for_modes": [
+      "dmz-pvp"
+     ],
      "playstyle": "Short Range",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1370,16 +1343,13 @@
    "type_id": "smg",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 21,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 10
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 22
     },
     "dmz-pvp": {
      "tier": "D",
@@ -1393,12 +1363,13 @@
    "builds": [
     {
      "id": "wz55-striga-mw4-wzstats-2b40e9",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1439,12 +1410,15 @@
     },
     {
      "id": "wz55-striga-mw4-wzstats-f0aaae",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1487,14 +1461,11 @@
    "type_id": "shotgun",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
-     "tier": "A",
-     "rank": 11
-    },
-    "resurgence": {
      "tier": "A",
      "rank": 11
     },
@@ -1510,12 +1481,13 @@
    "builds": [
     {
      "id": "rezi-12-mw4-wzstats-bdca5f",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1546,12 +1518,15 @@
     },
     {
      "id": "rezi-12-mw4-wzstats-1154cf",
-     "mode": "dmz-pvp",
+     "modes": [
+      "dmz-pvp"
+     ],
+     "best_for_modes": [
+      "dmz-pvp"
+     ],
      "playstyle": "Short Range",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1587,12 +1562,15 @@
     },
     {
      "id": "rezi-12-mw4-wzstats-247553",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1631,16 +1609,13 @@
    "type_id": "marksman-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 11,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 12
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 15
     },
     "dmz-pvp": {
      "tier": "B",
@@ -1654,12 +1629,13 @@
    "builds": [
     {
      "id": "oris-86-mw4-wzstats-ed7eec",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1695,12 +1671,15 @@
     },
     {
      "id": "oris-86-mw4-wzstats-4534ec",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1749,16 +1728,13 @@
    "type_id": "sniper",
    "category": "Sniper",
    "category_id": "sniper",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 13
-    },
-    "resurgence": {
-     "tier": "META",
-     "rank": 6
     },
     "dmz-pvp": {
      "tier": "A",
@@ -1772,12 +1748,13 @@
    "builds": [
     {
      "id": "kg-7-vulcan-mw4-wzstats-1cb216",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1813,12 +1790,15 @@
     },
     {
      "id": "kg-7-vulcan-mw4-wzstats-df67ca",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Ads Speed",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -1862,16 +1842,13 @@
    "type_id": "lmg",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 9,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 14
-    },
-    "resurgence": {
-     "tier": "A",
-     "rank": 10
     },
     "dmz-pvp": {
      "tier": "A",
@@ -1885,12 +1862,13 @@
    "builds": [
     {
      "id": "type-73-mw4-wzstats-d48d63",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1926,12 +1904,15 @@
     },
     {
      "id": "type-73-mw4-wzstats-b0911c",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -1980,16 +1961,13 @@
    "type_id": "marksman-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 15
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 16
     },
     "dmz-pvp": {
      "tier": "A",
@@ -2003,12 +1981,15 @@
    "builds": [
     {
      "id": "mar-9-mw4-wzstats-99d4dd",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2052,16 +2033,13 @@
    "type_id": "lmg",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 16
-    },
-    "resurgence": {
-     "tier": "A",
-     "rank": 9
     },
     "dmz-pvp": {
      "tier": "A",
@@ -2075,12 +2053,13 @@
    "builds": [
     {
      "id": "finn-lmg-mw4-wzstats-e170b2",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Low Level",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2116,12 +2095,15 @@
     },
     {
      "id": "finn-lmg-mw4-wzstats-741df3",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2165,16 +2147,13 @@
    "type_id": "sniper",
    "category": "Sniper",
    "category_id": "sniper",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 35,
    "by_mode": {
     "multiplayer": {
      "tier": "A",
      "rank": 17
-    },
-    "resurgence": {
-     "tier": "C",
-     "rank": 13
     },
     "dmz-pvp": {
      "tier": "A",
@@ -2188,12 +2167,15 @@
    "builds": [
     {
      "id": "signal-50-mw4-wzstats-57c40d",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -2242,16 +2224,13 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 55,
    "by_mode": {
     "multiplayer": {
      "tier": "B",
      "rank": 18
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 20
     },
     "dmz-pvp": {
      "tier": "D",
@@ -2265,12 +2244,13 @@
    "builds": [
     {
      "id": "cronen-squall-mw4-wzstats-de9e56",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": false,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2310,12 +2290,15 @@
     },
     {
      "id": "cronen-squall-mw4-wzstats-dff1cf",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2358,16 +2341,13 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 27,
    "by_mode": {
     "multiplayer": {
      "tier": "B",
      "rank": 19
-    },
-    "resurgence": {
-     "tier": "A",
-     "rank": 7
     },
     "dmz-pvp": {
      "tier": "B",
@@ -2381,12 +2361,15 @@
    "builds": [
     {
      "id": "partriot-xmr-mw4-wzstats-92a2ce",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2430,16 +2413,13 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 39,
    "by_mode": {
     "multiplayer": {
      "tier": "B",
      "rank": 20
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 18
     },
     "dmz-pvp": {
      "tier": "D",
@@ -2453,12 +2433,15 @@
    "builds": [
     {
      "id": "oden-mw4-wzstats-ebd365",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2495,12 +2478,15 @@
     },
     {
      "id": "oden-mw4-wzstats-5b4d42",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2549,16 +2535,13 @@
    "type_id": "assault-rifle",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 21,
    "by_mode": {
     "multiplayer": {
      "tier": "B",
      "rank": 21
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 17
     },
     "dmz-pvp": {
      "tier": "B",
@@ -2572,12 +2555,15 @@
    "builds": [
     {
      "id": "hyeon-burst-mw4-wzstats-4cd3ba",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2627,16 +2613,13 @@
    "type_id": "lmg",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 44,
    "by_mode": {
     "multiplayer": {
      "tier": "B",
      "rank": 22
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 24
     },
     "dmz-pvp": {
      "tier": "D",
@@ -2650,12 +2633,15 @@
    "builds": [
     {
      "id": "apoc-338-mw4-wzstats-c090cf",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "optic",
@@ -2698,15 +2684,12 @@
    "type_id": "shotgun",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 32,
    "by_mode": {
     "multiplayer": {
      "tier": "B",
-     "rank": 23
-    },
-    "resurgence": {
-     "tier": "D",
      "rank": 23
     },
     "dmz-pvp": {
@@ -2721,12 +2704,15 @@
    "builds": [
     {
      "id": "warlord-mw4-wzstats-57d8ee",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Versatile",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -2769,16 +2755,13 @@
    "type_id": "pistol",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 7,
    "by_mode": {
     "multiplayer": {
      "tier": "C",
      "rank": 24
-    },
-    "resurgence": {
-     "tier": "B",
-     "rank": 12
     },
     "dmz-pvp": {
      "tier": "C",
@@ -2792,12 +2775,15 @@
    "builds": [
     {
      "id": "krait-p68-mw4-wzstats-a69238",
-     "mode": "multiplayer",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
      "playstyle": "Apex",
      "title": null,
      "description": null,
-     "is_best_build": true,
-     "is_best_for_playstyle": true,
      "attachments": [
       {
        "slot": "muzzle",
@@ -2845,16 +2831,13 @@
    "type_id": "pistol",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 41,
    "by_mode": {
     "multiplayer": {
      "tier": "D",
      "rank": 25
-    },
-    "resurgence": {
-     "tier": "D",
-     "rank": 14
     },
     "dmz-pvp": {
      "tier": "D",
@@ -2875,14 +2858,11 @@
    "type_id": "sniper",
    "category": "Sniper",
    "category_id": "sniper",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 10,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 26
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 26
     },
@@ -2905,14 +2885,11 @@
    "type_id": "pistol",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 27
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 27
     },
@@ -2935,14 +2912,11 @@
    "type_id": "pistol",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 48,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 28
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 28
     },
@@ -2965,14 +2939,11 @@
    "type_id": "launcher",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 4,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 29
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 29
     },
@@ -2995,14 +2966,11 @@
    "type_id": "launcher",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 23,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 30
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 30
     },
@@ -3025,14 +2993,11 @@
    "type_id": "launcher",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 43,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 31
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 31
     },
@@ -3055,14 +3020,11 @@
    "type_id": "launcher",
    "category": "Long range",
    "category_id": "long-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 54,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 32
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 32
     },
@@ -3085,14 +3047,11 @@
    "type_id": "melee",
    "category": "Close range",
    "category_id": "close-range",
+   "origin_game": "mw4",
    "is_new": false,
    "unlock_player_level": 0,
    "by_mode": {
     "multiplayer": {
-     "tier": "D",
-     "rank": 33
-    },
-    "resurgence": {
      "tier": "D",
      "rank": 33
     },

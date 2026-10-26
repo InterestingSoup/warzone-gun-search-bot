@@ -5,12 +5,12 @@ Game-agnostic query layer over every scraped meta dataset.
 Each game is loaded into the same shape so an AI (or the Discord bot) can drill
 down step by step:  game -> mode -> category / weapon type -> weapon -> build.
 
-Games:
-  mw4      data/mw4.json            (games/mw4.py)
-  warzone  all_guns_database.json   (legacy scrape.py, Resurgence/Verdansk)
-  bo6      all_guns_database.json   (legacy scrape.py, Multiplayer)
+Games (data/<game>.json, scraped by games/wzstats.py): mw4, warzone, bo6, bo7.
+warzone / bo6 fall back to the legacy all_guns_database.json (scrape.py) if
+their data file is missing.
 
-Adding a game = write a loader that returns a Game and register it in LOADERS.
+Adding a wzstats game = add it to games.wzstats.GAMES. Other sources: write a
+loader that returns a Game and register it in LOADERS.
 """
 import difflib
 import json
@@ -21,7 +21,7 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MW4_FILE = os.path.join(BASE_DIR, "data", "mw4.json")
+DATA_DIR = os.path.join(BASE_DIR, "data")
 LEGACY_FILE = os.path.join(BASE_DIR, "all_guns_database.json")
 
 
@@ -62,10 +62,19 @@ class Game:
 
 # ---------------------------------------------------------------- loaders
 
-def load_mw4() -> Optional[Game]:
-    if not os.path.exists(MW4_FILE):
+GAME_NOTES = {
+    "mw4": ["MW4 has two modes: Multiplayer and DMZ (split into DMZ PvP and DMZ PvE tier lists).",
+            "DMZ PvE has tier placements but few/no published builds; meta falls back to the "
+            "weapon's DMZ PvP or Multiplayer build (see build_from_mode)."],
+    "warzone": ["Builds are shared across Warzone modes; best_for_modes says which mode each is tuned for."],
+}
+
+
+def load_wzstats(game_id: str) -> Optional[Game]:
+    path = os.path.join(DATA_DIR, f"{game_id}.json")
+    if not os.path.exists(path):
         return None
-    with open(MW4_FILE) as f:
+    with open(path) as f:
         data = json.load(f)
 
     weapons = {w["id"]: w for w in data["weapons"]}
@@ -81,11 +90,10 @@ def load_mw4() -> Optional[Game]:
                 "tier": p["tier"], "rank": p["rank"],
             })
     return Game(
-        id="mw4", name=data["name"], source=data["source"], updated=data["scraped_at"],
+        id=game_id, name=data["name"], source=data["source"], updated=data["scraped_at"],
         modes=data["modes"], weapons=weapons, rows=rows, tiers=data["tiers"],
-        notes=["Tier lists rank every weapon per mode; categories are Long range / Close range / Sniper.",
-               "Resurgence and DMZ PvE currently have tier placements but few/no published builds; "
-               "fall back to the Multiplayer build for the same weapon."],
+        notes=["Tier lists rank every weapon per mode; categories are Long range / Close range / Sniper."]
+              + GAME_NOTES.get(game_id, []),
     )
 
 
@@ -126,8 +134,8 @@ def load_legacy(game_id: str) -> Optional[Game]:
             })
             w["builds"].append({
                 "id": f"{wid}-{mode_id}-{slug(category)}",
-                "mode": mode_id, "playstyle": category, "is_best_build": True,
-                "is_best_for_playstyle": True, "attachments": attachments,
+                "modes": [mode_id], "best_for_modes": [mode_id], "playstyle": category,
+                "attachments": attachments,
                 "updated_at": g.get("updated") or None, "image": g.get("image"),
             })
             rows.append({
@@ -155,9 +163,10 @@ def _legacy_attachments(lines):
 
 
 LOADERS = {
-    "mw4": load_mw4,
-    "warzone": lambda: load_legacy("warzone"),
-    "bo6": lambda: load_legacy("bo6"),
+    "mw4": lambda: load_wzstats("mw4"),
+    "warzone": lambda: load_wzstats("warzone") or load_legacy("warzone"),
+    "bo6": lambda: load_wzstats("bo6") or load_legacy("bo6"),
+    "bo7": lambda: load_wzstats("bo7"),
 }
 
 
@@ -185,7 +194,8 @@ class MetaStore:
             self._mtimes = self._current_mtimes()
 
     def _current_mtimes(self):
-        return {p: os.path.getmtime(p) for p in (MW4_FILE, LEGACY_FILE) if os.path.exists(p)}
+        paths = [LEGACY_FILE] + [os.path.join(DATA_DIR, f"{gid}.json") for gid in LOADERS]
+        return {p: os.path.getmtime(p) for p in paths if os.path.exists(p)}
 
     def _maybe_reload(self):
         if self._current_mtimes() != self._mtimes:
@@ -200,10 +210,15 @@ class MetaStore:
 
     # ---- resolvers (accept ids or loose names) ----
 
+    ALIASES = {"br": "battleroyale", "wz": "battleroyale", "mp": "multiplayer", "rez": "resurgence",
+               "ranked": "ranked", "dmz": "dmzpvp", "pvp": "dmzpvp", "pve": "dmzpve", "ar": "assaultrifle", "lmg": "lmg", "sr": "sniper",
+               "marksman": "marksmanrifle", "short": "closerange", "shortrange": "closerange"}
+
     def _resolve(self, value, options, kind):
         if value is None:
             return None
         key = norm(value)
+        key = self.ALIASES.get(key, key)
         for o in options:
             if key in (norm(o["id"]), norm(o["name"])):
                 return o["id"]
@@ -263,7 +278,7 @@ class MetaStore:
             out.append({
                 "rank": r["rank"], "tier": r["tier"], "weapon_id": w["id"], "name": w["name"],
                 "type": w.get("type"), "category": r["category"],
-                "build_count": sum(1 for b in w["builds"] if b["mode"] == mode),
+                "build_count": sum(1 for b in w["builds"] if mode in b["modes"]),
             })
         return {"game": g.id, "mode": mode, "category": category, "weapon_type": weapon_type, "weapons": out}
 
@@ -274,7 +289,7 @@ class MetaStore:
         picks = []
         for row in tl["weapons"]:
             w = g.weapons[row["weapon_id"]]
-            build, fallback = _best_build(w, tl["mode"], row["category"])
+            build, fallback = _best_build(w, tl["mode"], None if g.tiers else row["category"])
             if not build:
                 continue
             picks.append(dict(row, build=build, build_from_mode=fallback))
@@ -288,7 +303,7 @@ class MetaStore:
         mode = self._resolve(mode, g.modes, "mode")
         placements = [{"mode": r["mode"], "category": r["category"], "tier": r["tier"], "rank": r["rank"]}
                       for r in g.rows if r["weapon_id"] == w["id"] and (not mode or r["mode"] == mode)]
-        builds = [b for b in w["builds"] if not mode or b["mode"] == mode]
+        builds = [b for b in w["builds"] if not mode or mode in b["modes"]]
         result = {k: v for k, v in w.items() if k not in ("builds", "by_mode")}
         result.update(game=g.id, placements=placements, builds=builds)
         if mode and not builds and w["builds"]:
@@ -312,16 +327,18 @@ class MetaStore:
 
 
 def _best_build(weapon, mode, category=None):
-    """Return (build, fallback_mode). Prefers this mode's best build, then any build."""
-    in_mode = [b for b in weapon["builds"] if b["mode"] == mode]
+    """Return (build, fallback_mode). Prefers this mode's recommended build, then any build."""
+    in_mode = [b for b in weapon["builds"] if mode in b["modes"]]
     if category:  # legacy games keep one build per category
         in_cat = [b for b in in_mode if b.get("playstyle") == category]
         in_mode = in_cat or in_mode
-    for pool, fallback in ((in_mode, None), (weapon["builds"], True)):
-        if pool:
-            best = next((b for b in pool if b.get("is_best_build")), pool[0])
-            return best, (best["mode"] if fallback else None)
-    return None, None
+    best = next((b for b in in_mode if mode in b["best_for_modes"]), None) or (in_mode[0] if in_mode else None)
+    if best:
+        return best, None
+    # No build for this mode: borrow the weapon's recommended build from another mode
+    pool = weapon["builds"]
+    best = next((b for b in pool if b["best_for_modes"]), None) or (pool[0] if pool else None)
+    return (best, best["modes"][0]) if best else (None, None)
 
 
 store = MetaStore()

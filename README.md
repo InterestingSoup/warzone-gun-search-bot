@@ -78,11 +78,17 @@ All games are queryable through one JSON API, served on the same port as `/healt
 (`start.py`, or standalone with `python meta_api.py`). Built so an AI can drill down
 step by step and ask the user follow-up questions using the options it returns.
 
-| Game id | Source | Data |
+| Game id | Modes | Source |
 |---|---|---|
-| `mw4` | wzstats.gg/mw4/meta | `data/mw4.json`, scraped by `games/mw4.py` (plain HTTP, refreshed in-process every `MW4_REFRESH_HOURS`, default 6) |
-| `warzone` | legacy `scrape.py` | `all_guns_database.json` (Resurgence / Verdansk) |
-| `bo6` | legacy `scrape.py` | `all_guns_database.json` (Multiplayer) |
+| `mw4` | multiplayer, dmz-pvp, dmz-pve | wzstats.gg/mw4/meta |
+| `warzone` | battle-royale, resurgence, ranked, ranked-resurgence, iron-gauntlet, black-ops-royale | wzstats.gg |
+| `bo6` | multiplayer, ranked | wzstats.gg/bo6/meta |
+| `bo7` | multiplayer, ranked | wzstats.gg/bo7/meta |
+
+Data lives in `data/<game>.json`, scraped by `games/wzstats.py` (plain HTTP, no browser).
+The container re-scrapes every `META_REFRESH_HOURS` (default 6); refresh by hand with
+`python -m games.wzstats [game ...]`. `warzone`/`bo6` fall back to the legacy
+`all_guns_database.json` if their data file is missing.
 
 ```
 GET /api                                         index + usage hints for the AI
@@ -91,14 +97,15 @@ GET /api/games/mw4                               modes, categories, weapon types
 GET /api/games/mw4/meta?mode=dmz-pvp&category=long-range&limit=5
 GET /api/games/mw4/tier-list?mode=multiplayer&type=smg&tier=META
 GET /api/games/mw4/weapons/han-86?mode=multiplayer
+GET /api/games/warzone/meta?mode=resurgence&type=smg
 GET /api/search?q=kastov&game=mw4
 ```
 
 Params accept ids or loose names (`dmz pvp`, `long range`, `smg`). Errors return
-the valid options, e.g. `Unknown mode 'ranked'. Options: multiplayer, resurgence, dmz-pvp, dmz-pve`.
+the valid options, e.g. `Unknown mode 'resurgence'. Options: multiplayer, dmz-pvp, dmz-pve`.
 
-**Adding a game:** write a scraper under `games/`, a loader in `meta_store.py`
-returning a `Game`, and register it in `LOADERS`.
+**Adding a game:** if wzstats covers it, add an entry to `GAMES` in `games/wzstats.py`
+and a `LOADERS` line in `meta_store.py`. Other sources: write a loader returning a `Game`.
 
 ---
 

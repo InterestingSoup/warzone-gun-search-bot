@@ -16,6 +16,7 @@ import datetime
 from urllib.parse import urlparse
 
 from meta_api import handle as handle_api, write_json, start_refresher
+from meta_store import store as meta_store
 
 webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
 if webhook_url:
@@ -61,7 +62,7 @@ def check_database_exists():
     """Check if database file exists locally"""
     print(f"📁 Current working directory: {Path.cwd()}")
     print(f"📂 Files: {os.listdir()}")
-    db_path = Path("gun-database")
+    db_path = Path("all_guns_database.json")
     if db_path.exists():
         print(f"✅ Database found: {db_path.stat().st_size} bytes")
         return True
@@ -77,16 +78,18 @@ class HealthCheckHandler(BaseHTTPRequestHandler):
             url = urlparse(self.path)
             return write_json(self, *handle_api(url.path, url.query))
         if self.path == '/health':
-            # Check if database exists and bot is ready
-            db_exists = Path("gun-database").exists()
+            # Healthy when the meta API has data loaded; Discord is optional
+            games = [g["id"] for g in meta_store.list_games()]
+            db_exists = bool(games)
             discord_token = os.getenv('DISCORD_SEARCH_BOT_TOKEN')
             
-            if db_exists and discord_token:
+            if db_exists:
                 response = {
                     "status": "healthy",
                     "service": "warzone-gun-search-bot",
                     "database": "loaded",
-                    "discord": "configured"
+                    "games": games,
+                    "discord": "configured" if discord_token else "missing"
                 }
                 self.send_response(200)
                 self.send_header('Content-type', 'application/json')
@@ -167,7 +170,7 @@ def main():
     print("🎯 All checks passed - starting services...")
     print("📡 Bot will be available for slash commands")
     
-    # Keep MW4 meta data fresh for the /api endpoints
+    # Keep wzstats meta data (mw4, warzone, bo6, bo7) fresh for the /api endpoints
     start_refresher()
 
     # Start Discord bot in a separate thread

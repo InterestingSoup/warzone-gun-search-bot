@@ -1,0 +1,6089 @@
+{
+ "game": "bo7",
+ "name": "Black Ops 7",
+ "source": "https://wzstats.gg/bo7/meta",
+ "scraped_at": "2026-10-26T04:33:10Z",
+ "modes": [
+  {
+   "id": "multiplayer",
+   "name": "Multiplayer"
+  },
+  {
+   "id": "ranked",
+   "name": "Ranked Play"
+  }
+ ],
+ "tiers": [
+  "META",
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "tier_lists": {
+  "multiplayer": {
+   "META": [
+    "fg42",
+    "vmp",
+    "kogot-7",
+    "an-94",
+    "vx-compact",
+    "m15-mod-0",
+    "m10-breacher",
+    "shadow-sk",
+    "sturmwolf-45",
+    "voyak-kt-3",
+    "ryden-45k",
+    "ak-27",
+    "peacekeeper-mk1",
+    "tr51-para"
+   ],
+   "A": [
+    "gremlin",
+    "sg-12",
+    "mammoth",
+    "m34-novaline",
+    "mk35-isr",
+    "razor-9mm",
+    "dravec-45",
+    "mk78",
+    "vst",
+    "mpc-25",
+    "egrt-17",
+    "mxr-17",
+    "rev-46",
+    "maddox-rfb",
+    "carbon-57",
+    "ds20-mirage",
+    "swordfish-a1",
+    "krs-762",
+    "xm325",
+    "cbrs-3",
+    "akita",
+    "m8a1",
+    "x9-maverick",
+    "hawker-hx",
+    "strider-300",
+    "velox-57",
+    "1911",
+    "vs-recon",
+    "warden-308"
+   ],
+   "B": [
+    "echo-12",
+    "xr-3-ion",
+    "coda-9",
+    "sokol-545",
+    "rk-9"
+   ],
+   "C": [
+    "j\u00e4ger-45",
+    "nx-ravager",
+    "siren",
+    "grimhawk"
+   ],
+   "D": [
+    "aarow-109",
+    "arc-m1",
+    "flatline-mkii",
+    "knife-bo7",
+    "ballistic-knife",
+    "h311-saw",
+    "gdl-havoc",
+    "katana",
+    "executioner's-duet",
+    "mace",
+    "roc-20mm"
+   ]
+  },
+  "ranked": {
+   "META": [
+    "m15-mod-0",
+    "vmp",
+    "mpc-25",
+    "dravec-45",
+    "vs-recon",
+    "j\u00e4ger-45"
+   ],
+   "A": [],
+   "B": [],
+   "C": [],
+   "D": []
+  }
+ },
+ "weapons": [
+  {
+   "id": "fg42",
+   "name": "FG42",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 1
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "fg42-wzstats-2ce287",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "stock",
+       "name": "MFS AMBILATERAL STOCK",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 8MM SUPPRESSOR",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "18\" ELAPSE BARREL",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "rearGrip",
+       "name": "ACQUIT GRIP",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 27
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-07-23T19:43:13.846Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-07-23T19:43:13.846Z"
+  },
+  {
+   "id": "vmp",
+   "name": "VMP",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 2
+    },
+    "ranked": {
+     "tier": "META",
+     "rank": 2
+    }
+   },
+   "builds": [
+    {
+     "id": "vmp-wzstats-ab9c05",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "ranked"
+     ],
+     "playstyle": "Ranked",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "rearGrip",
+       "name": "MFS TACTICAL COMMAND GRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "stock",
+       "name": "FLOUT HEAVY PAD",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "underbarrel",
+       "name": "SAPPER GUARD HANDSTOP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "barrel",
+       "name": "14.6\" NOCTURNAL-VI BARREL",
+       "unlock_weapon_level": 9
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-09-25T07:57:32.596Z",
+     "attachments_source": "loadout-builder recommended"
+    },
+    {
+     "id": "vmp-wzstats-530609",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Short Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "rearGrip",
+       "name": "MFS TACTICAL COMMAND GRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "stock",
+       "name": "FLOUT HEAVY PAD",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "underbarrel",
+       "name": "SAPPER GUARD HANDSTOP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "barrel",
+       "name": "14.6\" NOCTURNAL-VI BARREL",
+       "unlock_weapon_level": 9
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-09-17T20:31:45.631Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-09-25T07:57:32.596Z"
+  },
+  {
+   "id": "kogot-7",
+   "name": "KOGOT-7",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 3
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "kogot-7-wzstats-ba7e02",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "barrel",
+       "name": "13.5\" CANIS-05 BARREL",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "magazine",
+       "name": "FORTUNE EXTENDED MAG",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 28
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-11T10:29:34.996Z"
+    },
+    {
+     "id": "kogot-7-wzstats-5c5e62",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "barrel",
+       "name": "13.5\" CANIS-05 BARREL",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "magazine",
+       "name": "FORTUNE EXTENDED MAG",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "rearGrip",
+       "name": "EMT3 VULPINE GRIP",
+       "unlock_weapon_level": 20
+      },
+      {
+       "slot": "stock",
+       "name": "F7-HOWL STOCK",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 28
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-12-04T19:13:41.325Z"
+    }
+   ],
+   "updated_at": "2026-02-11T10:29:34.996Z"
+  },
+  {
+   "id": "an-94",
+   "name": "AN-94",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 4
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "an-94-wzstats-a4ca05",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "VALENS EXTENDED MAG",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "rearGrip",
+       "name": "BOWEN UMBRAL GRIP",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "barrel",
+       "name": "18.5\" APHELION BARREL",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-06-25T22:08:25.911Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-06-25T22:08:25.911Z"
+  },
+  {
+   "id": "vx-compact",
+   "name": "VX COMPACT",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 5
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "vx-compact-wzstats-badbf9",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "FANG HOVERPOINT ELO",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "magazine",
+       "name": "MFS IMPETUS FAST MAG",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DOBBINS GRIP",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "barrel",
+       "name": "11.5\" R-VAULT BARREL",
+       "unlock_weapon_level": 27
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-06-11T21:41:52.869Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-06-11T21:41:52.869Z"
+  },
+  {
+   "id": "m15-mod-0",
+   "name": "M15 MOD 0",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 6
+    },
+    "ranked": {
+     "tier": "META",
+     "rank": 1
+    }
+   },
+   "builds": [
+    {
+     "id": "m15-mod-0-wzstats-d5f8a6",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "underbarrel",
+       "name": "AXIS SHIFT VERTICAL FOREGRIP",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "rearGrip",
+       "name": "CONTOUR GRIP",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 26
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:51:25.218Z"
+    },
+    {
+     "id": "m15-mod-0-wzstats-bf0eff",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "MINI REFLEX 01",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "LONG BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STEADY SWAY HANDSTOP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-02T18:01:08.287Z"
+    },
+    {
+     "id": "m15-mod-0-wzstats-2304a2",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "underbarrel",
+       "name": "AXIS SHIFT VERTICAL FOREGRIP",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "magazine",
+       "name": "MAYDAY EXTENDED MAG",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "rearGrip",
+       "name": "CONTOUR GRIP",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "stock",
+       "name": "WANDER-3V STOCK",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 26
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-21T19:52:20.616Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:51:25.218Z"
+  },
+  {
+   "id": "m10-breacher",
+   "name": "M10 BREACHER",
+   "type": "Shotgun",
+   "type_id": "shotgun",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 7
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "m10-breacher-wzstats-7c0126",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "BREACHER PRECISION CHOKE",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 29
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "stock",
+       "name": "LW SKELETON STOCK",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "firemods",
+       "name": "PUMP GUIDE ROD",
+       "unlock_weapon_level": 35
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:55:47.123Z"
+    },
+    {
+     "id": "m10-breacher-wzstats-241916",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "MINI REFLEX 01",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "muzzle",
+       "name": "ADS CHOKE",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "barrel",
+       "name": "LONG BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "laser",
+       "name": "STRELOK LASER",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "stock",
+       "name": "PRIMED STOCK",
+       "unlock_weapon_level": 1
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-03T01:03:35.469Z"
+    },
+    {
+     "id": "m10-breacher-wzstats-551fe1",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "EAM XL REFLEX",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "muzzle",
+       "name": "BREACHER PRECISION CHOKE",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "barrel",
+       "name": "19.8\" BULL BARREL",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 29
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "stock",
+       "name": "LW SKELETON STOCK",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "firemods",
+       "name": "PUMP GUIDE ROD",
+       "unlock_weapon_level": 35
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T03:55:27.492Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:55:47.123Z"
+  },
+  {
+   "id": "shadow-sk",
+   "name": "SHADOW SK",
+   "type": "Sniper",
+   "type_id": "sniper",
+   "category": "Sniper",
+   "category_id": "sniper",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 13,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 8
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "shadow-sk-wzstats-786057",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "17\" THRUST BARREL",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "rearGrip",
+       "name": "E-3 BILLET SKELETON GRIP",
+       "unlock_weapon_level": 36
+      },
+      {
+       "slot": "firemods",
+       "name": "LW TRIGGER",
+       "unlock_weapon_level": 24
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:52:23.303Z"
+    },
+    {
+     "id": "shadow-sk-wzstats-1de045",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "EAM DUAL ZOOM",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "17\" THRUST BARREL",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "rearGrip",
+       "name": "E-3 BILLET SKELETON GRIP",
+       "unlock_weapon_level": 36
+      },
+      {
+       "slot": "stock",
+       "name": "FRICTION STOCK",
+       "unlock_weapon_level": 45
+      },
+      {
+       "slot": "comb",
+       "name": "E-FIRM RISER",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "firemods",
+       "name": "LW TRIGGER",
+       "unlock_weapon_level": 24
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T04:31:24.914Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:52:23.303Z"
+  },
+  {
+   "id": "sturmwolf-45",
+   "name": "STURMWOLF 45",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 9
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "sturmwolf-45-wzstats-3eabfe",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "HAWKER STABILIZER MK.II",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "barrel",
+       "name": "14.8\" PERIGEE BARREL",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 29
+      },
+      {
+       "slot": "stock",
+       "name": "CORPUS-X3 STOCK",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 38
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:50:34.442Z"
+    },
+    {
+     "id": "sturmwolf-45-wzstats-15a1be",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "HAWKER STABILIZER MK.II",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "barrel",
+       "name": "14.8\" PERIGEE BARREL",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 29
+      },
+      {
+       "slot": "laser",
+       "name": "LTI SWIFTPOINT LASER",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "magazine",
+       "name": "LOCUS EXTENDED MAG",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "rearGrip",
+       "name": "MOTLEY LIGHT GRIP",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "stock",
+       "name": "CORPUS-X3 STOCK",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 38
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-09T00:06:59.236Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:50:34.442Z"
+  },
+  {
+   "id": "voyak-kt-3",
+   "name": "VOYAK KT-3",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 10
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "voyak-kt-3-wzstats-ccaae3",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "FANG HOVERPOINT ELO",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "barrel",
+       "name": "20\" DANKO BARREL",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 41
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-03-13T00:10:08.438Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-03-13T00:10:08.438Z"
+  },
+  {
+   "id": "ryden-45k",
+   "name": "RYDEN 45K",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 11
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "ryden-45k-wzstats-16fff7",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "BOWEN .45 SUPPRESSOR",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "12\" VIENNA BARREL",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 40
+      },
+      {
+       "slot": "magazine",
+       "name": "TORCH EXTENDED MAG",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "rearGrip",
+       "name": "ERUPTION GRIP",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "stock",
+       "name": "COLLAPSIBLE STOCK",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 16
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:52:53.920Z"
+    },
+    {
+     "id": "ryden-45k-wzstats-d39517",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "BOWEN .45 SUPPRESSOR",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "12\" VIENNA BARREL",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "magazine",
+       "name": "TORCH EXTENDED MAG",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 16
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T01:44:52.768Z"
+    },
+    {
+     "id": "ryden-45k-wzstats-262e92",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "LONG BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "SPRINT TO FIRE GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-03T00:02:50.064Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:52:53.920Z"
+  },
+  {
+   "id": "ak-27",
+   "name": "AK-27",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 4,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 12
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "ak-27-wzstats-4131c1",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "14\" PRISM LIGHT BARREL",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DICTUM LIGHT GRIP",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 13
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-11T10:28:11.403Z"
+    },
+    {
+     "id": "ak-27-wzstats-c644a0",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "14\" PRISM LIGHT BARREL",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "magazine",
+       "name": "EPITAPH EXTENDED MAG",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DICTUM LIGHT GRIP",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "stock",
+       "name": "VIKTOR-7R STOCK",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 13
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T13:13:37.586Z"
+    }
+   ],
+   "updated_at": "2026-02-11T10:28:11.403Z"
+  },
+  {
+   "id": "peacekeeper-mk1",
+   "name": "PEACEKEEPER MK1",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 52,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 13
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "peacekeeper-mk1-wzstats-fa642a",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "K&S STALKER 57-X",
+       "unlock_weapon_level": 6
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "rearGrip",
+       "name": "ACCORDANCE GRIP",
+       "unlock_weapon_level": 42
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 17
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:52:37.369Z"
+    },
+    {
+     "id": "peacekeeper-mk1-wzstats-312b5f",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "MINI REFLEX 03",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "RECOIL CONTROL FOREGRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICKDRAW GRIP",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-03T21:02:02.252Z"
+    },
+    {
+     "id": "peacekeeper-mk1-wzstats-564e43",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "K&S STALKER 57-X",
+       "unlock_weapon_level": 6
+      },
+      {
+       "slot": "barrel",
+       "name": "21\" DF-3 MERGE BARREL",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "STABILIZATION GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "stock",
+       "name": "VAGRANT-93 STOCK",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 17
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-14T06:23:36.445Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:52:37.369Z"
+  },
+  {
+   "id": "tr51-para",
+   "name": "TR51 PARA",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "META",
+     "rank": 14
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "tr51-para-wzstats-f10d6d",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "barrel",
+       "name": "18.5\" MFS FALLEN ANGEL BARREL",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 41
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-09-17T20:32:07.944Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-09-17T20:32:07.944Z"
+  },
+  {
+   "id": "gremlin",
+   "name": "GREMLIN",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 15
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "gremlin-wzstats-f29eb9",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Short Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "PROCURAL EXTENDED MAG",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "barrel",
+       "name": "9\" MFS CESTUS BARREL",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "HAWKER HYBRID .45",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "stock",
+       "name": "RHAPSODY STOCK",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "rearGrip",
+       "name": "SABER GRIP",
+       "unlock_weapon_level": 13
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-07-23T22:42:17.651Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-07-23T22:42:17.651Z"
+  },
+  {
+   "id": "sg-12",
+   "name": "SG-12",
+   "type": "Shotgun",
+   "type_id": "shotgun",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 16
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "sg-12-wzstats-5b5edc",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "barrel",
+       "name": "18\" CRIT-STRIKE BARREL",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "laser",
+       "name": "MFS PULSE FIRE TACLIGHT",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "AKITA FULL BORE-12",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DASHBOUND GRIP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "stock",
+       "name": "B3-DRAGSTEP PAD",
+       "unlock_weapon_level": 12
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-14T23:11:30.903Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-02-14T23:11:30.903Z"
+  },
+  {
+   "id": "mammoth",
+   "name": "MAMMOTH",
+   "type": "LMG",
+   "type_id": "lmg",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 17
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "mammoth-wzstats-6736e1",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "barrel",
+       "name": "14\" MFS CASCADE BARREL",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "HDR-762 SUPPRESSOR",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "rearGrip",
+       "name": "ALLIANCE GRIP",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 12
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-07-30T21:22:56.930Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-07-30T21:22:56.930Z"
+  },
+  {
+   "id": "m34-novaline",
+   "name": "M34 NOVALINE",
+   "type": "Marksman Rifle",
+   "type_id": "marksman-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 49,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 18
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "m34-novaline-wzstats-84960a",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" CYCLOPS-03 BARREL",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "rearGrip",
+       "name": "COUGAR DRAW GRIP",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 42
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:55:23.247Z"
+    },
+    {
+     "id": "m34-novaline-wzstats-325b2d",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" CYCLOPS-03 BARREL",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "rearGrip",
+       "name": "COUGAR DRAW GRIP",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "stock",
+       "name": "BATTALION CORE STOCK",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 42
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-21T20:18:59.446Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:55:23.247Z"
+  },
+  {
+   "id": "mk35-isr",
+   "name": "MK35 ISR",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 19
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "mk35-isr-wzstats-4cd98c",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "barrel",
+       "name": "17\" LTI FIRETAIL BARREL",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "rearGrip",
+       "name": "SARSEN SPRINT GRIP",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 19
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-04-02T21:41:52.599Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-04-02T21:41:52.599Z"
+  },
+  {
+   "id": "razor-9mm",
+   "name": "RAZOR 9MM",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 19,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 20
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "razor-9mm-wzstats-3d8fbb",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 32
+      },
+      {
+       "slot": "magazine",
+       "name": "Strikeface Extended Mag I",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "rearGrip",
+       "name": "EAM PUSHBACK GRIP",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 13
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-03-05T23:16:18.738Z"
+    },
+    {
+     "id": "razor-9mm-wzstats-c89cba",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "barrel",
+       "name": "13\" RL-GENESYS BARREL",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 32
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "magazine",
+       "name": "Strikeface Extended Mag I",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "rearGrip",
+       "name": "EAM PUSHBACK GRIP",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 13
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:54:01.370Z"
+    },
+    {
+     "id": "razor-9mm-wzstats-8cbd88",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "LONG BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STEADY SWAY HANDSTOP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-05T23:07:46.153Z"
+    }
+   ],
+   "updated_at": "2026-03-05T23:16:18.738Z"
+  },
+  {
+   "id": "dravec-45",
+   "name": "DRAVEC 45",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 34,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 21
+    },
+    "ranked": {
+     "tier": "META",
+     "rank": 4
+    }
+   },
+   "builds": [
+    {
+     "id": "dravec-45-wzstats-951665",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "BOWEN .45 SUPPRESSOR",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "barrel",
+       "name": "19\" EAM HORIZON BARREL",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "magazine",
+       "name": "GATOR EXTENDED MAG",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "rearGrip",
+       "name": "HERALD-Z1 GRIP",
+       "unlock_weapon_level": 36
+      },
+      {
+       "slot": "stock",
+       "name": "SERVAL Q-STEP STOCK",
+       "unlock_weapon_level": 14
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:51:36.985Z"
+    },
+    {
+     "id": "dravec-45-wzstats-4ee433",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "MUZZLE BRAKE",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "LONG BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICKDRAW GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-02T23:42:30.308Z"
+    },
+    {
+     "id": "dravec-45-wzstats-6fd394",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "BOWEN .45 SUPPRESSOR",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "barrel",
+       "name": "19\" EAM HORIZON BARREL",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "laser",
+       "name": "LTI SWIFTPOINT LASER",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "magazine",
+       "name": "GATOR EXTENDED MAG",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "rearGrip",
+       "name": "HERALD-Z1 GRIP",
+       "unlock_weapon_level": 36
+      },
+      {
+       "slot": "stock",
+       "name": "SERVAL Q-STEP STOCK",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 2
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T00:59:12.600Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:51:36.985Z"
+  },
+  {
+   "id": "mk78",
+   "name": "MK.78",
+   "type": "LMG",
+   "type_id": "lmg",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 22
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "mk78-wzstats-4fc3e3",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 6
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 46
+      },
+      {
+       "slot": "rearGrip",
+       "name": "TRAILBLAZE GRIP",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "stock",
+       "name": "BOWEN LIGHT STOCK",
+       "unlock_weapon_level": 38
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:55:12.681Z"
+    },
+    {
+     "id": "mk78-wzstats-a0cd94",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 6
+      },
+      {
+       "slot": "barrel",
+       "name": "SHORT BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 46
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "rearGrip",
+       "name": "TRAILBLAZE GRIP",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "stock",
+       "name": "BOWEN LIGHT STOCK",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 34
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-16T04:22:42.313Z"
+    },
+    {
+     "id": "mk78-wzstats-110871",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "REFLEX 01",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "muzzle",
+       "name": "MUZZLE BRAKE",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "SHORT BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "FAST MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICKDRAW GRIP",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-03T00:10:08.169Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:55:12.681Z"
+  },
+  {
+   "id": "vst",
+   "name": "VST",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 23
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "vst-wzstats-3aa7a6",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "AMPLIFY EXTENDED MAG I",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "stock",
+       "name": "VAS BLENCH PAD",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "barrel",
+       "name": "14\" LTI EXPEDITION BARREL",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "muzzle",
+       "name": "HAWKER SERIES 45",
+       "unlock_weapon_level": 26
+      },
+      {
+       "slot": "underbarrel",
+       "name": "LATERAL PRECISION GRIP",
+       "unlock_weapon_level": 27
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-04-02T21:47:45.010Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-04-02T21:47:45.010Z"
+  },
+  {
+   "id": "mpc-25",
+   "name": "MPC-25",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 55,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 24
+    },
+    "ranked": {
+     "tier": "META",
+     "rank": 3
+    }
+   },
+   "builds": [
+    {
+     "id": "mpc-25-wzstats-290a31",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "K&S COMPENSATOR",
+       "unlock_weapon_level": 20
+      },
+      {
+       "slot": "barrel",
+       "name": "14.5\" VAS ASHE BARREL",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "underbarrel",
+       "name": "ZERO SHIFT HANDSTOP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 42
+      },
+      {
+       "slot": "magazine",
+       "name": "SUSTAIN-25 EXTENDED MAG",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "rearGrip",
+       "name": "VASSAL STABILITY GRIP",
+       "unlock_weapon_level": 29
+      },
+      {
+       "slot": "stock",
+       "name": "MEDUSA STOCK",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 19
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:54:18.647Z"
+    },
+    {
+     "id": "mpc-25-wzstats-d4f579",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "K&S COMPENSATOR",
+       "unlock_weapon_level": 20
+      },
+      {
+       "slot": "underbarrel",
+       "name": "ZERO SHIFT HANDSTOP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "rearGrip",
+       "name": "MAGNATE GRIP",
+       "unlock_weapon_level": 40
+      },
+      {
+       "slot": "stock",
+       "name": "MEDUSA STOCK",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 19
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T01:26:59.362Z"
+    },
+    {
+     "id": "mpc-25-wzstats-d51a4a",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "ranked"
+     ],
+     "playstyle": "Ranked",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "rearGrip",
+       "name": "MAGNATE GRIP",
+       "unlock_weapon_level": 40
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 42
+      },
+      {
+       "slot": "stock",
+       "name": "MEDUSA STOCK",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-04-22T18:35:58.803Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-04-22T18:35:58.803Z"
+  },
+  {
+   "id": "egrt-17",
+   "name": "EGRT-17",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 25
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "egrt-17-wzstats-1b10f1",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "EAM NOVA-SLIM MAG",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "rearGrip",
+       "name": "NANITE GRIP",
+       "unlock_weapon_level": 40
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRINGS",
+       "unlock_weapon_level": 9
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-11T10:28:28.115Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-02-11T10:28:28.115Z"
+  },
+  {
+   "id": "mxr-17",
+   "name": "MXR-17",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 16,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 26
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "mxr-17-wzstats-87e76a",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "GREAVES TI-762",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" WRAITH BARREL",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "underbarrel",
+       "name": "SENTRY PRO HANDSTOP",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "rearGrip",
+       "name": "BELL-H81 GRIP",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-03-19T18:23:47.956Z"
+    },
+    {
+     "id": "mxr-17-wzstats-1e0976",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "GREAVES TI-762",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "17\" GREAVES SCOURGE BARREL",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "magazine",
+       "name": "RHODES DRUM MAG",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "rearGrip",
+       "name": "FISSURE GRIP",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "stock",
+       "name": "GREAVES COVENANT STOCK",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:54:55.313Z"
+    },
+    {
+     "id": "mxr-17-wzstats-4dca9d",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "MINI REFLEX 01",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STEADY SWAY HANDSTOP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "SPRINT TO FIRE GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-02T23:48:29.488Z"
+    }
+   ],
+   "updated_at": "2026-03-19T18:23:47.956Z"
+  },
+  {
+   "id": "rev-46",
+   "name": "REV-46",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 27
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "rev-46-wzstats-b959a8",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "magazine",
+       "name": "CAWDOR EXTENDED MAG",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "underbarrel",
+       "name": "FORCE STABILIZER HANDSTOP",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "barrel",
+       "name": "CAUDAL TARGET BARREL",
+       "unlock_weapon_level": 12
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-06T00:06:38.390Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-02-06T00:06:38.390Z"
+  },
+  {
+   "id": "maddox-rfb",
+   "name": "MADDOX RFB",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 28
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "maddox-rfb-wzstats-e21de9",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "barrel",
+       "name": "17\" PERFIDY-75 BARREL",
+       "unlock_weapon_level": 42
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS DRIFT LOCK FOREGRIP",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 43
+      },
+      {
+       "slot": "rearGrip",
+       "name": "HORUS ACCURACY GRIP",
+       "unlock_weapon_level": 32
+      },
+      {
+       "slot": "stock",
+       "name": "ROUT STRIDE STOCK",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-12-04T19:16:52.030Z"
+    },
+    {
+     "id": "maddox-rfb-wzstats-3f5d32",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "barrel",
+       "name": "24\" ASSEMBLAGE BARREL",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "rearGrip",
+       "name": "HALLUX MIX GRIP",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-23T17:59:58.821Z"
+    }
+   ],
+   "updated_at": "2026-01-23T17:59:58.821Z"
+  },
+  {
+   "id": "carbon-57",
+   "name": "CARBON 57",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 46,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 29
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "carbon-57-wzstats-14046d",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "K&S STALKER 57-X",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "barrel",
+       "name": "8.6\" ORBITAL LIGHT BARREL",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VITALIZE HANDSTOP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DULCET CONTROL GRIP",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "stock",
+       "name": "HAMMER PLATOON PAD",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-16T03:49:00.824Z"
+    },
+    {
+     "id": "carbon-57-wzstats-4a16ce",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "K&S STALKER 57-X",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VITALIZE HANDSTOP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "rearGrip",
+       "name": "BOMBUS QUICK GRIP",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 3
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:54:32.279Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:54:32.279Z"
+  },
+  {
+   "id": "ds20-mirage",
+   "name": "DS20 MIRAGE",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 37,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 30
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "ds20-mirage-wzstats-8a444e",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "barrel",
+       "name": "14.2\" WINGED BARREL",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "rearGrip",
+       "name": "A1-C CONTROL GRIP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 7
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:54:44.099Z"
+    },
+    {
+     "id": "ds20-mirage-wzstats-e4cc0f",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "VAS 5.56 SUPPRESSOR",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "barrel",
+       "name": "14.2\" WINGED BARREL",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "underbarrel",
+       "name": "IRONHOLD ANGLED GRIP",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "rearGrip",
+       "name": "A1-C CONTROL GRIP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "stock",
+       "name": "REDWELL CARRION STOCK",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SYNC UNIT",
+       "unlock_weapon_level": 7
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T00:22:36.998Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:54:44.099Z"
+  },
+  {
+   "id": "swordfish-a1",
+   "name": "SWORDFISH A1",
+   "type": "Marksman Rifle",
+   "type_id": "marksman-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 31
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "swordfish-a1-wzstats-c60e12",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "FANG HOVERPOINT ELO",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "firemods",
+       "name": "MFS PENTA BURST MOD",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "stock",
+       "name": "AMBER-J STOCK",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "barrel",
+       "name": "16.5\" GAR-XL BARREL",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "rearGrip",
+       "name": "R1-SPLENDOR GRIP",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "underbarrel",
+       "name": "FIXUS UNDERBARREL",
+       "unlock_weapon_level": 8
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 15
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-03-17T21:20:46.351Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-03-17T21:20:46.351Z"
+  },
+  {
+   "id": "krs-762",
+   "name": "KRS-7.62",
+   "type": "Marksman Rifle",
+   "type_id": "marksman-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 32
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "krs-762-wzstats-10bab6",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "FANG HOVERPOINT ELO",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL 7.62 BRAKE",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "underbarrel",
+       "name": "VAS CONVERGENCE FOREGRIP",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "comb",
+       "name": "BOWEN LUMET COMB",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "barrel",
+       "name": "16.5\" VAS ALLAY BARREL",
+       "unlock_weapon_level": 15
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-06-04T23:47:40.150Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-06-04T23:47:40.150Z"
+  },
+  {
+   "id": "xm325",
+   "name": "XM325",
+   "type": "LMG",
+   "type_id": "lmg",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 31,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 33
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "xm325-wzstats-7ce63c",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "RL-7.62 COMPENSATOR",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "barrel",
+       "name": "18\" RISTRAUCH S-100 BARREL",
+       "unlock_weapon_level": 32
+      },
+      {
+       "slot": "underbarrel",
+       "name": "SENTRY PRO HANDSTOP",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 46
+      },
+      {
+       "slot": "rearGrip",
+       "name": "LUCIUS-90 GRIP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "stock",
+       "name": "RIST RAUCH RECON STOCK",
+       "unlock_weapon_level": 24
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 25
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-16T05:48:58.443Z"
+    },
+    {
+     "id": "xm325-wzstats-950f86",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "RL-7.62 COMPENSATOR",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "underbarrel",
+       "name": "SENTRY PRO HANDSTOP",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "rearGrip",
+       "name": "LUCIUS-90 GRIP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "firemods",
+       "name": "ACCELERATED RECOIL SYSTEM",
+       "unlock_weapon_level": 25
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-12T18:00:25.415Z"
+    }
+   ],
+   "updated_at": "2026-02-12T18:00:25.415Z"
+  },
+  {
+   "id": "cbrs-3",
+   "name": "CBRS-3",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 34
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "cbrs-3-wzstats-f9d626",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "REDWELL SPROCKET MAG",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "muzzle",
+       "name": "REDWELL SHADE-X SUPPRESSOR",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "stock",
+       "name": "CORINTH CONTROL STOCK",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 24
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" REDWELL PARLAY BARREL",
+       "unlock_weapon_level": 11
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-06-04T23:47:19.460Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-06-04T23:47:19.460Z"
+  },
+  {
+   "id": "akita",
+   "name": "AKITA",
+   "type": "Shotgun",
+   "type_id": "shotgun",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 40,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 35
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "akita-wzstats-087153",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Short Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "AKITA FULL BORE-12",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "12\" SECURITY CIPHER BARREL",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "laser",
+       "name": "REDWELL TACTICAL LASER",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "magazine",
+       "name": "SHELL CARRIER EXTENDED I",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "stock",
+       "name": "VENOMOUS STOCK",
+       "unlock_weapon_level": 7
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:51:56.586Z"
+    },
+    {
+     "id": "akita-wzstats-2d7cb1",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "AKITA FULL BORE-12",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "12\" SECURITY CIPHER BARREL",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STRIDER HANDSTOP",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "laser",
+       "name": "REDWELL TACTICAL LASER",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "magazine",
+       "name": "SHELL CARRIER EXTENDED I",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "rearGrip",
+       "name": "PIONEER BLAZE GRIP",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "stock",
+       "name": "VENOMOUS STOCK",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 6
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T06:20:17.834Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:51:56.586Z"
+  },
+  {
+   "id": "m8a1",
+   "name": "M8A1",
+   "type": "Marksman Rifle",
+   "type_id": "marksman-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 10,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 36
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "m8a1-wzstats-c3a898",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "RL-5.56 BRAKE",
+       "unlock_weapon_level": 27
+      },
+      {
+       "slot": "underbarrel",
+       "name": "FORCE STABILIZER HANDSTOP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "rearGrip",
+       "name": "INSTINCT GRIP",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 8
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:51:08.169Z"
+    },
+    {
+     "id": "m8a1-wzstats-d4174b",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "MINI REFLEX 03",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STEADY SWAY HANDSTOP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICKDRAW GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-02T23:06:38.526Z"
+    },
+    {
+     "id": "m8a1-wzstats-b36df3",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "MUZZLE BRAKE",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" ASCEND-KS BARREL",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "underbarrel",
+       "name": "FORCE STABILIZER HANDSTOP",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "magazine",
+       "name": "SENTINEL EXTENDED MAG",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "rearGrip",
+       "name": "INSTINCT GRIP",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "stock",
+       "name": "GRIDLOCK STOCK",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 8
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-16T03:10:24.125Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:51:08.169Z"
+  },
+  {
+   "id": "x9-maverick",
+   "name": "X9 MAVERICK",
+   "type": "Assault Rifle",
+   "type_id": "assault-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 28,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 37
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "x9-maverick-wzstats-be7af6",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "DEFENSE-H SUPPRESSOR",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "barrel",
+       "name": "17.6\" CHIRAL-02 BARREL",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DAEDALUS GRIP",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 40
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:52:04.788Z"
+    },
+    {
+     "id": "x9-maverick-wzstats-6be4ed",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "DEFENSE-H SUPPRESSOR",
+       "unlock_weapon_level": 2
+      },
+      {
+       "slot": "barrel",
+       "name": "17.6\" CHIRAL-02 BARREL",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "underbarrel",
+       "name": "EAM STEADY-90 GRIP",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "laser",
+       "name": "3MW MOTION STRIKE LASER",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "rearGrip",
+       "name": "DAEDALUS GRIP",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "stock",
+       "name": "HO1-90 FULL STOCK",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "firemods",
+       "name": "BOLT CARRIER GROUP",
+       "unlock_weapon_level": 40
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-14T23:29:30.597Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:52:04.788Z"
+  },
+  {
+   "id": "hawker-hx",
+   "name": "HAWKER HX",
+   "type": "Sniper",
+   "type_id": "sniper",
+   "category": "Sniper",
+   "category_id": "sniper",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 38
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "hawker-hx-wzstats-592977",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "barrel",
+       "name": "MFS 25\" VOTIVE BARREL",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "rearGrip",
+       "name": "AURORAL LIGHT GRIP",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "firemods",
+       "name": "LIGHT BOLT",
+       "unlock_weapon_level": 18
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:52:14.480Z"
+    },
+    {
+     "id": "hawker-hx-wzstats-110782",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "barrel",
+       "name": "MFS 25\" VOTIVE BARREL",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "underbarrel",
+       "name": "FLATTOP GRIP",
+       "unlock_weapon_level": 20
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "magazine",
+       "name": "AMRITA FAST MAG",
+       "unlock_weapon_level": 9
+      },
+      {
+       "slot": "rearGrip",
+       "name": "AURORAL LIGHT GRIP",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "stock",
+       "name": "HAWKER STEADFAST STOCK",
+       "unlock_weapon_level": 37
+      },
+      {
+       "slot": "firemods",
+       "name": "LIGHT BOLT",
+       "unlock_weapon_level": 18
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-16T02:28:37.261Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:52:14.480Z"
+  },
+  {
+   "id": "strider-300",
+   "name": "STRIDER 300",
+   "type": "Sniper",
+   "type_id": "sniper",
+   "category": "Sniper",
+   "category_id": "sniper",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 39
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "strider-300-wzstats-8b7475",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "CARNATION FAST MAG",
+       "unlock_weapon_level": 20
+      },
+      {
+       "slot": "rearGrip",
+       "name": "HATCH QUICK GRIP",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "firemods",
+       "name": "QUICK BOLT",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "barrel",
+       "name": "17\" EAM PLYP-4 BARREL",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 32
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-04-07T20:42:20.087Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-04-07T20:42:20.087Z"
+  },
+  {
+   "id": "velox-57",
+   "name": "VELOX 5.7",
+   "type": "Pistol",
+   "type_id": "pistol",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 13,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 40
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "velox-57-wzstats-567421",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Short Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "MONOLITHIC SUPPRESSOR",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "barrel",
+       "name": "7.8\" REDWELL T-ARROW BARREL",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "laser",
+       "name": "AIRGLIDE TARGET LASER",
+       "unlock_weapon_level": 30
+      },
+      {
+       "slot": "magazine",
+       "name": "DRACO RESERVE EXTENDED II",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICK SPINE GRIP",
+       "unlock_weapon_level": 9
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:57:22.568Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:57:22.568Z"
+  },
+  {
+   "id": "1911",
+   "name": "1911",
+   "type": "Pistol",
+   "type_id": "pistol",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 41
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "1911-wzstats-c39fdb",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LTI MINI",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "magazine",
+       "name": "RIGEL EXTENDED II",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "muzzle",
+       "name": "MFS OVERDRIVE AUTO-BRAKE",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "rearGrip",
+       "name": "F4-ABLE GRIP",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "barrel",
+       "name": "6.4\" LONG SLIDE BARREL",
+       "unlock_weapon_level": 7
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-04-16T20:22:51.421Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-04-16T20:22:51.421Z"
+  },
+  {
+   "id": "vs-recon",
+   "name": "VS RECON",
+   "type": "Sniper",
+   "type_id": "sniper",
+   "category": "Sniper",
+   "category_id": "sniper",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 42
+    },
+    "ranked": {
+     "tier": "META",
+     "rank": 5
+    }
+   },
+   "builds": [
+    {
+     "id": "vs-recon-wzstats-3170ee",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "magazine",
+       "name": "DASHLINE SPEED MAG",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "rearGrip",
+       "name": "R-1 SHELF GRIP",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "firemods",
+       "name": "LIGHT BOLT",
+       "unlock_weapon_level": 33
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-06T02:32:48.124Z"
+    },
+    {
+     "id": "vs-recon-wzstats-d74e77",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SUPPRESSOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "laser",
+       "name": "STEADY AIM LASER",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "FAST MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "stockPad",
+       "name": "MOBILITY PAD",
+       "unlock_weapon_level": 1
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-03T01:21:49.531Z"
+    },
+    {
+     "id": "vs-recon-wzstats-7eefae",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "ranked"
+     ],
+     "playstyle": "Ranked",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "firemods",
+       "name": "LIGHT BOLT",
+       "unlock_weapon_level": 33
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 42
+      },
+      {
+       "slot": "rearGrip",
+       "name": "R-1 SHELF GRIP",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "magazine",
+       "name": "DASHLINE SPEED MAG",
+       "unlock_weapon_level": 4
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-06T03:29:33.193Z",
+     "attachments_source": "loadout-builder recommended"
+    },
+    {
+     "id": "vs-recon-wzstats-fee91c",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "GREAVES A-762",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "barrel",
+       "name": "17\" RISTRAUCH NIMBUS BARREL",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STETIG-C HANDGUARD",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "magazine",
+       "name": "DASHLINE SPEED MAG",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "rearGrip",
+       "name": "R-1 SHELF GRIP",
+       "unlock_weapon_level": 34
+      },
+      {
+       "slot": "stock",
+       "name": "OUTPOST RAIDER PAD",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "firemods",
+       "name": "LIGHT BOLT",
+       "unlock_weapon_level": 33
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T04:13:19.810Z"
+    }
+   ],
+   "updated_at": "2026-02-06T03:29:33.193Z"
+  },
+  {
+   "id": "warden-308",
+   "name": "WARDEN 308",
+   "type": "Marksman Rifle",
+   "type_id": "marksman-rifle",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 25,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "A",
+     "rank": 43
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "warden-308-wzstats-c4a8bc",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "GREAVES ACCUSPOT 3X",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "muzzle",
+       "name": "OUTLAW SILENCER",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "barrel",
+       "name": "16.2\" ARTEMIS-01 BARREL",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 32
+      },
+      {
+       "slot": "rearGrip",
+       "name": "LTI TYRANNIS GRIP",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "stock",
+       "name": "FTAC HYBRID STOCK",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "comb",
+       "name": "STATIC-907X RISER",
+       "unlock_weapon_level": 14
+      },
+      {
+       "slot": "firemods",
+       "name": "BUFFER SPRING",
+       "unlock_weapon_level": 12
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-19T02:02:20.304Z"
+    },
+    {
+     "id": "warden-308-wzstats-cd504f",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Long Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "GREAVES ACCUSPOT 3X",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "muzzle",
+       "name": "OUTLAW SILENCER",
+       "unlock_weapon_level": 7
+      },
+      {
+       "slot": "barrel",
+       "name": "16.2\" ARTEMIS-01 BARREL",
+       "unlock_weapon_level": 23
+      },
+      {
+       "slot": "laser",
+       "name": "5MW LOCKSTEP LASER",
+       "unlock_weapon_level": 32
+      },
+      {
+       "slot": "rearGrip",
+       "name": "LTI TYRANNIS GRIP",
+       "unlock_weapon_level": 22
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:55:34.251Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:55:34.251Z"
+  },
+  {
+   "id": "echo-12",
+   "name": "ECHO 12",
+   "type": "Shotgun",
+   "type_id": "shotgun",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 22,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "B",
+     "rank": 44
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "echo-12-wzstats-5bc4bb",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "ECHO MODIFIED CHOKE",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" GHOSTLINE BARREL",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "laser",
+       "name": "2MW ADAPTIVE TACTICAL LASER",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "stock",
+       "name": "EXTRACTION STOCK",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "firemods",
+       "name": "TURNKEY RAPID DRUM",
+       "unlock_weapon_level": 33
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:56:51.733Z"
+    },
+    {
+     "id": "echo-12-wzstats-febc5d",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "ADS CHOKE",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "SHORT BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "laser",
+       "name": "HANDLING LASER",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "SPRINT TO FIRE GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "stock",
+       "name": "MOBILITY STOCK",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-06T00:11:53.881Z"
+    },
+    {
+     "id": "echo-12-wzstats-757c5e",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "muzzle",
+       "name": "ECHO MODIFIED CHOKE",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" GHOSTLINE BARREL",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "laser",
+       "name": "2MW ADAPTIVE TACTICAL LASER",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "rearGrip",
+       "name": "PHANTOM-17 GRIP",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "firemods",
+       "name": "TURNKEY RAPID DRUM",
+       "unlock_weapon_level": 33
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T07:08:00.310Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:56:51.733Z"
+  },
+  {
+   "id": "xr-3-ion",
+   "name": "XR-3 ION",
+   "type": "Sniper",
+   "type_id": "sniper",
+   "category": "Sniper",
+   "category_id": "sniper",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 43,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "B",
+     "rank": 45
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "xr-3-ion-wzstats-6a139e",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "LTI TRIAD SUPPRESSOR",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" FRINGE BARREL",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "rearGrip",
+       "name": "L.T. SLING GRIP",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "stock",
+       "name": "LIGHTSHIELD STOCK",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "firemods",
+       "name": "QUICK CHARGE",
+       "unlock_weapon_level": 32
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:57:07.487Z"
+    },
+    {
+     "id": "xr-3-ion-wzstats-4cc368",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "BULLET VELOCITY BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "underbarrel",
+       "name": "STEADY SWAY HANDGUARD",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "stock",
+       "name": "MOBILITY STOCK",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "FMJ AMMO",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-04T01:10:01.130Z"
+    },
+    {
+     "id": "xr-3-ion-wzstats-644414",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "EAM DUAL ZOOM",
+       "unlock_weapon_level": 15
+      },
+      {
+       "slot": "muzzle",
+       "name": "LTI TRIAD SUPPRESSOR",
+       "unlock_weapon_level": 4
+      },
+      {
+       "slot": "barrel",
+       "name": "15\" FRINGE BARREL",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "underbarrel",
+       "name": "ZERO-S HANDGUARD",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 22
+      },
+      {
+       "slot": "rearGrip",
+       "name": "L.T. SLING GRIP",
+       "unlock_weapon_level": 19
+      },
+      {
+       "slot": "stock",
+       "name": "LIGHTSHIELD STOCK",
+       "unlock_weapon_level": 39
+      },
+      {
+       "slot": "firemods",
+       "name": "QUICK CHARGE",
+       "unlock_weapon_level": 32
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-16T06:17:27.044Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:57:07.487Z"
+  },
+  {
+   "id": "coda-9",
+   "name": "CODA 9",
+   "type": "Pistol",
+   "type_id": "pistol",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 34,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "B",
+     "rank": 46
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "coda-9-wzstats-cb91cd",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "COMPENSATOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICKDRAW GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-23T18:00:15.768Z"
+    },
+    {
+     "id": "coda-9-wzstats-a20063",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "MONOLITHIC SUPPRESSOR",
+       "unlock_weapon_level": 26
+      },
+      {
+       "slot": "barrel",
+       "name": "6.3\" GREAVES HALBERD BARREL",
+       "unlock_weapon_level": 17
+      },
+      {
+       "slot": "laser",
+       "name": "K-FLASH TARGET LASER",
+       "unlock_weapon_level": 28
+      },
+      {
+       "slot": "magazine",
+       "name": "HELLGATE STICK MAG",
+       "unlock_weapon_level": 10
+      },
+      {
+       "slot": "rearGrip",
+       "name": "EXPRESS GRIP",
+       "unlock_weapon_level": 8
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:56:31.230Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:56:31.230Z"
+  },
+  {
+   "id": "sokol-545",
+   "name": "SOKOL 545",
+   "type": "LMG",
+   "type_id": "lmg",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "B",
+     "rank": 47
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "sokol-545-wzstats-03a314",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "barrel",
+       "name": "15.6\" STOLOS SHORT BARREL",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "underbarrel",
+       "name": "ENVOY FOREGRIP",
+       "unlock_weapon_level": 35
+      },
+      {
+       "slot": "laser",
+       "name": "1MW INSTINCT LASER ARRAY",
+       "unlock_weapon_level": 27
+      },
+      {
+       "slot": "magazine",
+       "name": "LUDENS SPEED MAG",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "rearGrip",
+       "name": "PYTHIAN-VI GRIP",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "stock",
+       "name": "Echidna Aim Stock",
+       "unlock_weapon_level": 30
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-12-16T23:52:56.055Z"
+    },
+    {
+     "id": "sokol-545-wzstats-c991fe",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SWF TISHINA-11",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "barrel",
+       "name": "15.6\" STOLOS SHORT BARREL",
+       "unlock_weapon_level": 25
+      },
+      {
+       "slot": "magazine",
+       "name": "LUDENS SPEED MAG",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "rearGrip",
+       "name": "PYTHIAN-VI GRIP",
+       "unlock_weapon_level": 13
+      },
+      {
+       "slot": "stock",
+       "name": "Echidna Aim Stock",
+       "unlock_weapon_level": 30
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:56:00.541Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:56:00.541Z"
+  },
+  {
+   "id": "rk-9",
+   "name": "RK-9",
+   "type": "SMG",
+   "type_id": "smg",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 7,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "B",
+     "rank": 48
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "rk-9-wzstats-b1ad85",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Short Range",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "HAWKER STABILIZER MK.II",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "underbarrel",
+       "name": "ZERO SHIFT HANDSTOP",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "rearGrip",
+       "name": "NANOPULSE GRIP",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "firemods",
+       "name": "ENHANCED CYCLE SYSTEM",
+       "unlock_weapon_level": 39
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-11-15T02:44:57.640Z"
+    },
+    {
+     "id": "rk-9-wzstats-b7b8e1",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Eight Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "LETHAL TOOLS ELO",
+       "unlock_weapon_level": 5
+      },
+      {
+       "slot": "muzzle",
+       "name": "HAWKER STABILIZER MK.II",
+       "unlock_weapon_level": 12
+      },
+      {
+       "slot": "barrel",
+       "name": "13.6\" MERCURIAL BARREL",
+       "unlock_weapon_level": 11
+      },
+      {
+       "slot": "underbarrel",
+       "name": "ZERO SHIFT HANDSTOP",
+       "unlock_weapon_level": 38
+      },
+      {
+       "slot": "laser",
+       "name": "EMT3 AGILE LASER",
+       "unlock_weapon_level": 31
+      },
+      {
+       "slot": "magazine",
+       "name": "ALLIANCE EXTENDED MAG",
+       "unlock_weapon_level": 6
+      },
+      {
+       "slot": "rearGrip",
+       "name": "NANOPULSE GRIP",
+       "unlock_weapon_level": 41
+      },
+      {
+       "slot": "firemods",
+       "name": "ENHANCED CYCLE SYSTEM",
+       "unlock_weapon_level": 39
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-01-26T11:56:43.203Z"
+    }
+   ],
+   "updated_at": "2026-01-26T11:56:43.203Z"
+  },
+  {
+   "id": "j\u00e4ger-45",
+   "name": "J\u00c4GER 45",
+   "type": "Pistol",
+   "type_id": "pistol",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "C",
+     "rank": 49
+    },
+    "ranked": {
+     "tier": "META",
+     "rank": 6
+    }
+   },
+   "builds": [
+    {
+     "id": "j\u00e4ger-45-wzstats-5fbc27",
+     "modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "best_for_modes": [
+      "multiplayer",
+      "ranked"
+     ],
+     "playstyle": "Five Attachments",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "optic",
+       "name": "VAS MICROFLEX",
+       "unlock_weapon_level": 16
+      },
+      {
+       "slot": "muzzle",
+       "name": "J\u00c4GER ROAR SUPPRESSOR",
+       "unlock_weapon_level": 3
+      },
+      {
+       "slot": "barrel",
+       "name": "8.7\" EAM VOYAGER BARREL",
+       "unlock_weapon_level": 18
+      },
+      {
+       "slot": "magazine",
+       "name": "GOLIATH-X EXTENDED+",
+       "unlock_weapon_level": 21
+      },
+      {
+       "slot": "rearGrip",
+       "name": "VX-SHIFT GRIP",
+       "unlock_weapon_level": 27
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-02-06T03:33:05.415Z"
+    },
+    {
+     "id": "j\u00e4ger-45-wzstats-8ebbdd",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [],
+     "playstyle": "Low Level",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "muzzle",
+       "name": "SUPPRESSOR",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "barrel",
+       "name": "SHORT BARREL",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "magazine",
+       "name": "EXTENDED MAG I",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "rearGrip",
+       "name": "QUICKDRAW GRIP",
+       "unlock_weapon_level": null
+      },
+      {
+       "slot": "firemods",
+       "name": "RECOIL SPRINGS",
+       "unlock_weapon_level": null
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2025-10-03T00:41:28.299Z"
+    }
+   ],
+   "updated_at": "2026-02-06T03:33:05.415Z"
+  },
+  {
+   "id": "nx-ravager",
+   "name": "NX RAVAGER",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "C",
+     "rank": 50
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "siren",
+   "name": "SIREN",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "C",
+     "rank": 51
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [
+    {
+     "id": "siren-wzstats-509f16",
+     "modes": [
+      "multiplayer"
+     ],
+     "best_for_modes": [
+      "multiplayer"
+     ],
+     "playstyle": "Versatile",
+     "title": null,
+     "description": null,
+     "attachments": [
+      {
+       "slot": "magazine",
+       "name": "MFS DEFLECTION CORE",
+       "unlock_weapon_level": 1
+      },
+      {
+       "slot": "rearGrip",
+       "name": "LANCET TEAR GRIP",
+       "unlock_weapon_level": 10
+      }
+     ],
+     "pros": [],
+     "cons": [],
+     "author": "WZStats",
+     "updated_at": "2026-05-08T09:59:12.058Z",
+     "attachments_source": "loadout-builder recommended"
+    }
+   ],
+   "updated_at": "2026-05-08T09:59:12.058Z"
+  },
+  {
+   "id": "grimhawk",
+   "name": "GRIMHAWK",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "C",
+     "rank": 52
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "aarow-109",
+   "name": "AAROW 109",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 53
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "arc-m1",
+   "name": "A.R.C. M1",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 25,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 54
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "flatline-mkii",
+   "name": "FLATLINE MK.II",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 49,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 55
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "knife-bo7",
+   "name": "KNIFE",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 1,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 56
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "ballistic-knife",
+   "name": "BALLISTIC KNIFE",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 57
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "h311-saw",
+   "name": "H311-SAW",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 58
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "gdl-havoc",
+   "name": "GDL HAVOC",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 59
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "katana",
+   "name": "KATANA",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 60
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "executioner's-duet",
+   "name": "EXECUTIONER'S DUET",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 61
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "mace",
+   "name": "MACE",
+   "type": "Melee",
+   "type_id": "melee",
+   "category": "Close range",
+   "category_id": "close-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 62
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  },
+  {
+   "id": "roc-20mm",
+   "name": "ROC 20MM",
+   "type": "Launcher",
+   "type_id": "launcher",
+   "category": "Long range",
+   "category_id": "long-range",
+   "origin_game": "bo7",
+   "is_new": false,
+   "unlock_player_level": 0,
+   "by_mode": {
+    "multiplayer": {
+     "tier": "D",
+     "rank": 63
+    },
+    "ranked": {
+     "tier": null,
+     "rank": null
+    }
+   },
+   "builds": [],
+   "updated_at": null
+  }
+ ]
+}
