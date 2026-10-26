@@ -72,6 +72,36 @@ IMGUR_CLIENT_ID=your_imgur_client_id_here
 
 ---
 
+## 🧠 Meta Query API (for AI tools)
+
+All games are queryable through one JSON API, served on the same port as `/health`
+(`start.py`, or standalone with `python meta_api.py`). Built so an AI can drill down
+step by step and ask the user follow-up questions using the options it returns.
+
+| Game id | Source | Data |
+|---|---|---|
+| `mw4` | wzstats.gg/mw4/meta | `data/mw4.json`, scraped by `games/mw4.py` (plain HTTP, refreshed in-process every `MW4_REFRESH_HOURS`, default 6) |
+| `warzone` | legacy `scrape.py` | `all_guns_database.json` (Resurgence / Verdansk) |
+| `bo6` | legacy `scrape.py` | `all_guns_database.json` (Multiplayer) |
+
+```
+GET /api                                         index + usage hints for the AI
+GET /api/games                                   games + modes
+GET /api/games/mw4                               modes, categories, weapon types, tiers
+GET /api/games/mw4/meta?mode=dmz-pvp&category=long-range&limit=5
+GET /api/games/mw4/tier-list?mode=multiplayer&type=smg&tier=META
+GET /api/games/mw4/weapons/han-86?mode=multiplayer
+GET /api/search?q=kastov&game=mw4
+```
+
+Params accept ids or loose names (`dmz pvp`, `long range`, `smg`). Errors return
+the valid options, e.g. `Unknown mode 'ranked'. Options: multiplayer, resurgence, dmz-pvp, dmz-pve`.
+
+**Adding a game:** write a scraper under `games/`, a loader in `meta_store.py`
+returning a `Game`, and register it in `LOADERS`.
+
+---
+
 ## 🎮 Discord Bot Commands
 
 ### `/search <weapon_name>`

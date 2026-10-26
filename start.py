@@ -10,9 +10,12 @@ import subprocess
 import threading
 import json
 from pathlib import Path
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 import requests
 import datetime
+from urllib.parse import urlparse
+
+from meta_api import handle as handle_api, write_json, start_refresher
 
 webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
 if webhook_url:
@@ -70,6 +73,9 @@ class HealthCheckHandler(BaseHTTPRequestHandler):
     """Simple health check server for Render"""
     
     def do_GET(self):
+        if self.path == '/api' or self.path.startswith('/api/'):
+            url = urlparse(self.path)
+            return write_json(self, *handle_api(url.path, url.query))
         if self.path == '/health':
             # Check if database exists and bot is ready
             db_exists = Path("gun-database").exists()
@@ -111,7 +117,7 @@ class HealthCheckHandler(BaseHTTPRequestHandler):
 def start_health_server():
     """Start health check server for Render"""
     port = int(os.getenv('PORT', 10000))
-    server = HTTPServer(('0.0.0.0', port), HealthCheckHandler)
+    server = ThreadingHTTPServer(('0.0.0.0', port), HealthCheckHandler)
     print(f"🌐 Health check server starting on port {port}")
     server.serve_forever()
 
@@ -122,9 +128,8 @@ def start_discord_bot():
     # Check for Discord token
     discord_token = os.getenv('DISCORD_SEARCH_BOT_TOKEN')
     if not discord_token:
-        print("❌ DISCORD_SEARCH_BOT_TOKEN not found in environment variables!")
-        print("   Add this in your Render dashboard under Environment Variables")
-        sys.exit(1)
+        print("⚠️ DISCORD_SEARCH_BOT_TOKEN not set - skipping Discord bot, meta API still runs")
+        return
     
     # Import and run the bot
     try:
@@ -162,6 +167,9 @@ def main():
     print("🎯 All checks passed - starting services...")
     print("📡 Bot will be available for slash commands")
     
+    # Keep MW4 meta data fresh for the /api endpoints
+    start_refresher()
+
     # Start Discord bot in a separate thread
     bot_thread = threading.Thread(target=start_discord_bot, daemon=True)
     bot_thread.start()
